@@ -1,0 +1,17 @@
+.\objects\main.o: User\main.c
+.\objects\main.o: .\CMSIS\hc32_ddl.h
+.\objects\main.o: .\CMSIS\hc32_common.h
+.\objects\main.o: C:\Keil\ARM\ARMCC\Bin\..\include\string.h
+.\objects\main.o: C:\Keil\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\main.o: C:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\main.o: C:\Keil\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\main.o: .\CMSIS\hc32f460.h
+.\objects\main.o: .\CMSIS\core_cm4.h
+.\objects\main.o: .\CMSIS\cmsis_version.h
+.\objects\main.o: .\CMSIS\cmsis_compiler.h
+.\objects\main.o: .\CMSIS\cmsis_armcc.h
+.\objects\main.o: .\CMSIS\mpu_armv7.h
+.\objects\main.o: .\CMSIS\system_hc32f460.h
+.\objects\main.o: .\User\ddl_config.h
+.\objects\main.o: .\Lib\inc\hc32f460_icg.h
+.\objects\main.o: .\Lib\inc\hc32f460_utility.h

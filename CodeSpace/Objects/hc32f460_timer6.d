@@ -1,0 +1,16 @@
+.\objects\hc32f460_timer6.o: Lib\src\hc32f460_timer6.c
+.\objects\hc32f460_timer6.o: .\Lib\inc\hc32f460_timer6.h
+.\objects\hc32f460_timer6.o: .\CMSIS\hc32_common.h
+.\objects\hc32f460_timer6.o: C:\Keil\ARM\ARMCC\Bin\..\include\string.h
+.\objects\hc32f460_timer6.o: C:\Keil\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\hc32f460_timer6.o: C:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\hc32f460_timer6.o: C:\Keil\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\hc32f460_timer6.o: .\CMSIS\hc32f460.h
+.\objects\hc32f460_timer6.o: .\CMSIS\core_cm4.h
+.\objects\hc32f460_timer6.o: .\CMSIS\cmsis_version.h
+.\objects\hc32f460_timer6.o: .\CMSIS\cmsis_compiler.h
+.\objects\hc32f460_timer6.o: .\CMSIS\cmsis_armcc.h
+.\objects\hc32f460_timer6.o: .\CMSIS\mpu_armv7.h
+.\objects\hc32f460_timer6.o: .\CMSIS\system_hc32f460.h
+.\objects\hc32f460_timer6.o: .\User\ddl_config.h
+.\objects\hc32f460_timer6.o: .\Lib\inc\hc32f460_utility.h
