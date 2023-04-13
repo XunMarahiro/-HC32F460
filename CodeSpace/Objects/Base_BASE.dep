@@ -1,159 +1,0 @@
-Dependencies for Project 'Base', Target 'BASE': (DO NOT MODIFY !)
-F (.\CMSIS\system_hc32f460.c)(0x6098A62B)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\User-I.\RTE\_BASE-IC:\Keil\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil\ARM\PACK\HDSC\HC32F460\1.0.8\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DHC32F460 -DUSE_DEVICE_DRIVER_LIB-o .\objects\system_hc32f460.o --omf_browse .\objects\system_hc32f460.crf --depend .\objects\system_hc32f460.d)
-I (CMSIS\hc32_common.h)(0x609E193F)
-I (C:\Keil\ARM\ARMCC\include\string.h)(0x599ECD2C)
-I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
-I (CMSIS\hc32f460.h)(0x6166A818)
-I (.\CMSIS\core_cm4.h)(0x6098A62B)
-I (.\CMSIS\cmsis_version.h)(0x6098A62B)
-I (.\CMSIS\cmsis_compiler.h)(0x6098A62B)
-I (.\CMSIS\cmsis_armcc.h)(0x6098A62B)
-I (.\CMSIS\mpu_armv7.h)(0x6098A62B)
-I (CMSIS\system_hc32f460.h)(0x6098A62B)
-F (.\CMSIS\startup_hc32f460jeta.s)(0x609E1958)(--cpu Cortex-M4.fp -g --apcs=interwork -I.\RTE\_BASE-IC:\Keil\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil\ARM\PACK\HDSC\HC32F460\1.0.8\Device\Include--pd "__UVISION_VERSION SETA 525" --pd "_RTE_ SETA 1"--list .\listings\startup_hc32f460jeta.lst --xref -o .\objects\startup_hc32f460jeta.o --depend .\objects\startup_hc32f460jeta.d)
-F (.\Lib\src\hc32f460_gpio.c)(0x6098A631)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\User-I.\RTE\_BASE-IC:\Keil\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil\ARM\PACK\HDSC\HC32F460\1.0.8\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DHC32F460 -DUSE_DEVICE_DRIVER_LIB-o .\objects\hc32f460_gpio.o --omf_browse .\objects\hc32f460_gpio.crf --depend .\objects\hc32f460_gpio.d)
-I (.\Lib\inc\hc32f460_gpio.h)(0x616398F7)
-I (.\CMSIS\hc32_common.h)(0x609E193F)
-I (C:\Keil\ARM\ARMCC\include\string.h)(0x599ECD2C)
-I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
-I (.\CMSIS\hc32f460.h)(0x6166A818)
-I (.\CMSIS\core_cm4.h)(0x6098A62B)
-I (.\CMSIS\cmsis_version.h)(0x6098A62B)
-I (.\CMSIS\cmsis_compiler.h)(0x6098A62B)
-I (.\CMSIS\cmsis_armcc.h)(0x6098A62B)
-I (.\CMSIS\mpu_armv7.h)(0x6098A62B)
-I (.\CMSIS\system_hc32f460.h)(0x6098A62B)
-I (.\User\ddl_config.h)(0x609E1958)
-I (.\Lib\inc\hc32f460_utility.h)(0x6098A632)
-F (.\Lib\src\hc32f460_interrupts.c)(0x6164FAEE)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\User-I.\RTE\_BASE-IC:\Keil\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil\ARM\PACK\HDSC\HC32F460\1.0.8\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DHC32F460 -DUSE_DEVICE_DRIVER_LIB-o .\objects\hc32f460_interrupts.o --omf_browse .\objects\hc32f460_interrupts.crf --depend .\objects\hc32f460_interrupts.d)
-I (.\Lib\inc\hc32f460_interrupts.h)(0x6098A632)
-I (.\CMSIS\hc32_common.h)(0x609E193F)
-I (C:\Keil\ARM\ARMCC\include\string.h)(0x599ECD2C)
-I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
-I (.\CMSIS\hc32f460.h)(0x6166A818)
-I (.\CMSIS\core_cm4.h)(0x6098A62B)
-I (.\CMSIS\cmsis_version.h)(0x6098A62B)
-I (.\CMSIS\cmsis_compiler.h)(0x6098A62B)
-I (.\CMSIS\cmsis_armcc.h)(0x6098A62B)
-I (.\CMSIS\mpu_armv7.h)(0x6098A62B)
-I (.\CMSIS\system_hc32f460.h)(0x6098A62B)
-I (.\User\ddl_config.h)(0x609E1958)
-I (.\Lib\inc\hc32f460_utility.h)(0x6098A632)
-F (.\Lib\src\hc32f460_utility.c)(0x616398F7)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\User-I.\RTE\_BASE-IC:\Keil\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil\ARM\PACK\HDSC\HC32F460\1.0.8\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DHC32F460 -DUSE_DEVICE_DRIVER_LIB-o .\objects\hc32f460_utility.o --omf_browse .\objects\hc32f460_utility.crf --depend .\objects\hc32f460_utility.d)
-I (.\Lib\inc\hc32f460_utility.h)(0x6098A632)
-I (.\CMSIS\hc32_common.h)(0x609E193F)
-I (C:\Keil\ARM\ARMCC\include\string.h)(0x599ECD2C)
-I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
-I (.\CMSIS\hc32f460.h)(0x6166A818)
-I (.\CMSIS\core_cm4.h)(0x6098A62B)
-I (.\CMSIS\cmsis_version.h)(0x6098A62B)
-I (.\CMSIS\cmsis_compiler.h)(0x6098A62B)
-I (.\CMSIS\cmsis_armcc.h)(0x6098A62B)
-I (.\CMSIS\mpu_armv7.h)(0x6098A62B)
-I (.\CMSIS\system_hc32f460.h)(0x6098A62B)
-I (.\User\ddl_config.h)(0x609E1958)
-F (.\Lib\src\hc32f460_crc.c)(0x616929E3)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\User-I.\RTE\_BASE-IC:\Keil\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil\ARM\PACK\HDSC\HC32F460\1.0.8\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DHC32F460 -DUSE_DEVICE_DRIVER_LIB-o .\objects\hc32f460_crc.o --omf_browse .\objects\hc32f460_crc.crf --depend .\objects\hc32f460_crc.d)
-I (.\Lib\inc\hc32f460_crc.h)(0x6098A632)
-I (.\CMSIS\hc32_common.h)(0x609E193F)
-I (C:\Keil\ARM\ARMCC\include\string.h)(0x599ECD2C)
-I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
-I (.\CMSIS\hc32f460.h)(0x6166A818)
-I (.\CMSIS\core_cm4.h)(0x6098A62B)
-I (.\CMSIS\cmsis_version.h)(0x6098A62B)
-I (.\CMSIS\cmsis_compiler.h)(0x6098A62B)
-I (.\CMSIS\cmsis_armcc.h)(0x6098A62B)
-I (.\CMSIS\mpu_armv7.h)(0x6098A62B)
-I (.\CMSIS\system_hc32f460.h)(0x6098A62B)
-I (.\User\ddl_config.h)(0x609E1958)
-I (.\Lib\inc\hc32f460_utility.h)(0x6098A632)
-F (.\Lib\src\hc32f460_i2c.c)(0x61679F0E)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\User-I.\RTE\_BASE-IC:\Keil\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil\ARM\PACK\HDSC\HC32F460\1.0.8\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DHC32F460 -DUSE_DEVICE_DRIVER_LIB-o .\objects\hc32f460_i2c.o --omf_browse .\objects\hc32f460_i2c.crf --depend .\objects\hc32f460_i2c.d)
-I (.\Lib\inc\hc32f460_i2c.h)(0x6098A632)
-I (.\CMSIS\hc32_common.h)(0x609E193F)
-I (C:\Keil\ARM\ARMCC\include\string.h)(0x599ECD2C)
-I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
-I (.\CMSIS\hc32f460.h)(0x6166A818)
-I (.\CMSIS\core_cm4.h)(0x6098A62B)
-I (.\CMSIS\cmsis_version.h)(0x6098A62B)
-I (.\CMSIS\cmsis_compiler.h)(0x6098A62B)
-I (.\CMSIS\cmsis_armcc.h)(0x6098A62B)
-I (.\CMSIS\mpu_armv7.h)(0x6098A62B)
-I (.\CMSIS\system_hc32f460.h)(0x6098A62B)
-I (.\User\ddl_config.h)(0x609E1958)
-I (.\Lib\inc\hc32f460_utility.h)(0x6098A632)
-F (.\Lib\src\hc32f460_rtc.c)(0x6098A631)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\User-I.\RTE\_BASE-IC:\Keil\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil\ARM\PACK\HDSC\HC32F460\1.0.8\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DHC32F460 -DUSE_DEVICE_DRIVER_LIB-o .\objects\hc32f460_rtc.o --omf_browse .\objects\hc32f460_rtc.crf --depend .\objects\hc32f460_rtc.d)
-I (.\Lib\inc\hc32f460_rtc.h)(0x6098A632)
-I (.\CMSIS\hc32_common.h)(0x609E193F)
-I (C:\Keil\ARM\ARMCC\include\string.h)(0x599ECD2C)
-I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
-I (.\CMSIS\hc32f460.h)(0x6166A818)
-I (.\CMSIS\core_cm4.h)(0x6098A62B)
-I (.\CMSIS\cmsis_version.h)(0x6098A62B)
-I (.\CMSIS\cmsis_compiler.h)(0x6098A62B)
-I (.\CMSIS\cmsis_armcc.h)(0x6098A62B)
-I (.\CMSIS\mpu_armv7.h)(0x6098A62B)
-I (.\CMSIS\system_hc32f460.h)(0x6098A62B)
-I (.\User\ddl_config.h)(0x609E1958)
-I (.\Lib\inc\hc32f460_utility.h)(0x6098A632)
-F (.\Lib\src\hc32f460_spi.c)(0x61666F76)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\User-I.\RTE\_BASE-IC:\Keil\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil\ARM\PACK\HDSC\HC32F460\1.0.8\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DHC32F460 -DUSE_DEVICE_DRIVER_LIB-o .\objects\hc32f460_spi.o --omf_browse .\objects\hc32f460_spi.crf --depend .\objects\hc32f460_spi.d)
-I (.\Lib\inc\hc32f460_spi.h)(0x6098A631)
-I (.\CMSIS\hc32_common.h)(0x609E193F)
-I (C:\Keil\ARM\ARMCC\include\string.h)(0x599ECD2C)
-I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
-I (.\CMSIS\hc32f460.h)(0x6166A818)
-I (.\CMSIS\core_cm4.h)(0x6098A62B)
-I (.\CMSIS\cmsis_version.h)(0x6098A62B)
-I (.\CMSIS\cmsis_compiler.h)(0x6098A62B)
-I (.\CMSIS\cmsis_armcc.h)(0x6098A62B)
-I (.\CMSIS\mpu_armv7.h)(0x6098A62B)
-I (.\CMSIS\system_hc32f460.h)(0x6098A62B)
-I (.\User\ddl_config.h)(0x609E1958)
-I (.\Lib\inc\hc32f460_utility.h)(0x6098A632)
-F (.\Lib\src\hc32f460_usart.c)(0x6098A631)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\User-I.\RTE\_BASE-IC:\Keil\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil\ARM\PACK\HDSC\HC32F460\1.0.8\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DHC32F460 -DUSE_DEVICE_DRIVER_LIB-o .\objects\hc32f460_usart.o --omf_browse .\objects\hc32f460_usart.crf --depend .\objects\hc32f460_usart.d)
-I (.\Lib\inc\hc32f460_usart.h)(0x6098A632)
-I (.\CMSIS\hc32_common.h)(0x609E193F)
-I (C:\Keil\ARM\ARMCC\include\string.h)(0x599ECD2C)
-I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
-I (.\CMSIS\hc32f460.h)(0x6166A818)
-I (.\CMSIS\core_cm4.h)(0x6098A62B)
-I (.\CMSIS\cmsis_version.h)(0x6098A62B)
-I (.\CMSIS\cmsis_compiler.h)(0x6098A62B)
-I (.\CMSIS\cmsis_armcc.h)(0x6098A62B)
-I (.\CMSIS\mpu_armv7.h)(0x6098A62B)
-I (.\CMSIS\system_hc32f460.h)(0x6098A62B)
-I (.\User\ddl_config.h)(0x609E1958)
-I (.\Lib\inc\hc32f460_utility.h)(0x6098A632)
-F (.\User\main.c)(0x609E1958)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Lib\inc -I .\User-I.\RTE\_BASE-IC:\Keil\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil\ARM\PACK\HDSC\HC32F460\1.0.8\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DHC32F460 -DUSE_DEVICE_DRIVER_LIB-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
-I (.\CMSIS\hc32_ddl.h)(0x616929BC)
-I (.\CMSIS\hc32_common.h)(0x609E193F)
-I (C:\Keil\ARM\ARMCC\include\string.h)(0x599ECD2C)
-I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
-I (.\CMSIS\hc32f460.h)(0x6166A818)
-I (.\CMSIS\core_cm4.h)(0x6098A62B)
-I (.\CMSIS\cmsis_version.h)(0x6098A62B)
-I (.\CMSIS\cmsis_compiler.h)(0x6098A62B)
-I (.\CMSIS\cmsis_armcc.h)(0x6098A62B)
-I (.\CMSIS\mpu_armv7.h)(0x6098A62B)
-I (.\CMSIS\system_hc32f460.h)(0x6098A62B)
-I (.\User\ddl_config.h)(0x609E1958)
-I (.\Lib\inc\hc32f460_icg.h)(0x6098A632)
-I (.\Lib\inc\hc32f460_utility.h)(0x6098A632)

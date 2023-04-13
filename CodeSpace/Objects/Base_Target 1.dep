@@ -1,8 +1,0 @@
-Dependencies for Project 'Base', Target 'Target 1': (DO NOT MODIFY !)
-F (.\CMSIS\system_hc32f460.c)(0x6098A62B)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Keil\ARM\PACK\HDSC\HC32F460\1.0.8\Device\Include-IC:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\objects\system_hc32f460.o --omf_browse .\objects\system_hc32f460.crf --depend .\objects\system_hc32f460.d)
-I (CMSIS\hc32_common.h)(0x609E193F)
-I (C:\Keil\ARM\ARMCC\include\string.h)(0x599ECD2C)
-I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
-F (.\User\main.c)(0x609E1958)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Keil\ARM\PACK\HDSC\HC32F460\1.0.8\Device\Include-IC:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="525"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
