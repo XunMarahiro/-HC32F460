@@ -1,0 +1,1259 @@
+Component: ARM Compiler 5.06 update 6 (build 750) Tool: armlink [4d35ed]
+
+==============================================================================
+
+Section Cross References
+
+    startup_hc32f460.o(RESET) refers to startup_hc32f460.o(STACK) for __initial_sp
+    startup_hc32f460.o(RESET) refers to startup_hc32f460.o(.text) for Reset_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ000_Handler) for IRQ000_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ001_Handler) for IRQ001_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ002_Handler) for IRQ002_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ003_Handler) for IRQ003_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ004_Handler) for IRQ004_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ005_Handler) for IRQ005_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ006_Handler) for IRQ006_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ007_Handler) for IRQ007_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ008_Handler) for IRQ008_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ009_Handler) for IRQ009_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ010_Handler) for IRQ010_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ011_Handler) for IRQ011_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ012_Handler) for IRQ012_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ013_Handler) for IRQ013_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ014_Handler) for IRQ014_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ015_Handler) for IRQ015_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ016_Handler) for IRQ016_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ017_Handler) for IRQ017_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ018_Handler) for IRQ018_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ019_Handler) for IRQ019_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ020_Handler) for IRQ020_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ021_Handler) for IRQ021_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ022_Handler) for IRQ022_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ023_Handler) for IRQ023_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ024_Handler) for IRQ024_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ025_Handler) for IRQ025_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ026_Handler) for IRQ026_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ027_Handler) for IRQ027_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ028_Handler) for IRQ028_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ029_Handler) for IRQ029_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ030_Handler) for IRQ030_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ031_Handler) for IRQ031_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ032_Handler) for IRQ032_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ033_Handler) for IRQ033_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ034_Handler) for IRQ034_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ035_Handler) for IRQ035_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ036_Handler) for IRQ036_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ037_Handler) for IRQ037_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ038_Handler) for IRQ038_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ039_Handler) for IRQ039_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ040_Handler) for IRQ040_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ041_Handler) for IRQ041_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ042_Handler) for IRQ042_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ043_Handler) for IRQ043_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ044_Handler) for IRQ044_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ045_Handler) for IRQ045_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ046_Handler) for IRQ046_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ047_Handler) for IRQ047_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ048_Handler) for IRQ048_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ049_Handler) for IRQ049_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ050_Handler) for IRQ050_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ051_Handler) for IRQ051_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ052_Handler) for IRQ052_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ053_Handler) for IRQ053_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ054_Handler) for IRQ054_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ055_Handler) for IRQ055_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ056_Handler) for IRQ056_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ057_Handler) for IRQ057_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ058_Handler) for IRQ058_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ059_Handler) for IRQ059_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ060_Handler) for IRQ060_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ061_Handler) for IRQ061_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ062_Handler) for IRQ062_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ063_Handler) for IRQ063_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ064_Handler) for IRQ064_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ065_Handler) for IRQ065_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ066_Handler) for IRQ066_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ067_Handler) for IRQ067_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ068_Handler) for IRQ068_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ069_Handler) for IRQ069_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ070_Handler) for IRQ070_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ071_Handler) for IRQ071_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ072_Handler) for IRQ072_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ073_Handler) for IRQ073_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ074_Handler) for IRQ074_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ075_Handler) for IRQ075_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ076_Handler) for IRQ076_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ077_Handler) for IRQ077_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ078_Handler) for IRQ078_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ079_Handler) for IRQ079_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ080_Handler) for IRQ080_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ081_Handler) for IRQ081_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ082_Handler) for IRQ082_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ083_Handler) for IRQ083_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ084_Handler) for IRQ084_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ085_Handler) for IRQ085_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ086_Handler) for IRQ086_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ087_Handler) for IRQ087_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ088_Handler) for IRQ088_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ089_Handler) for IRQ089_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ090_Handler) for IRQ090_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ091_Handler) for IRQ091_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ092_Handler) for IRQ092_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ093_Handler) for IRQ093_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ094_Handler) for IRQ094_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ095_Handler) for IRQ095_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ096_Handler) for IRQ096_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ097_Handler) for IRQ097_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ098_Handler) for IRQ098_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ099_Handler) for IRQ099_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ100_Handler) for IRQ100_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ101_Handler) for IRQ101_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ102_Handler) for IRQ102_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ103_Handler) for IRQ103_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ104_Handler) for IRQ104_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ105_Handler) for IRQ105_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ106_Handler) for IRQ106_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ107_Handler) for IRQ107_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ108_Handler) for IRQ108_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ109_Handler) for IRQ109_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ110_Handler) for IRQ110_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ111_Handler) for IRQ111_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ112_Handler) for IRQ112_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ113_Handler) for IRQ113_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ114_Handler) for IRQ114_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ115_Handler) for IRQ115_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ116_Handler) for IRQ116_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ117_Handler) for IRQ117_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ118_Handler) for IRQ118_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ119_Handler) for IRQ119_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ120_Handler) for IRQ120_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ121_Handler) for IRQ121_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ122_Handler) for IRQ122_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ123_Handler) for IRQ123_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ124_Handler) for IRQ124_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ125_Handler) for IRQ125_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ126_Handler) for IRQ126_Handler
+    startup_hc32f460.o(RESET) refers to hc32_ll_interrupts.o(i.IRQ127_Handler) for IRQ127_Handler
+    startup_hc32f460.o(RESET) refers to hc32f460_ll_interrupts_share.o(i.IRQ128_Handler) for IRQ128_Handler
+    startup_hc32f460.o(RESET) refers to hc32f460_ll_interrupts_share.o(i.IRQ129_Handler) for IRQ129_Handler
+    startup_hc32f460.o(RESET) refers to hc32f460_ll_interrupts_share.o(i.IRQ130_Handler) for IRQ130_Handler
+    startup_hc32f460.o(RESET) refers to hc32f460_ll_interrupts_share.o(i.IRQ131_Handler) for IRQ131_Handler
+    startup_hc32f460.o(RESET) refers to hc32f460_ll_interrupts_share.o(i.IRQ132_Handler) for IRQ132_Handler
+    startup_hc32f460.o(RESET) refers to hc32f460_ll_interrupts_share.o(i.IRQ136_Handler) for IRQ136_Handler
+    startup_hc32f460.o(RESET) refers to hc32f460_ll_interrupts_share.o(i.IRQ137_Handler) for IRQ137_Handler
+    startup_hc32f460.o(RESET) refers to hc32f460_ll_interrupts_share.o(i.IRQ138_Handler) for IRQ138_Handler
+    startup_hc32f460.o(RESET) refers to hc32f460_ll_interrupts_share.o(i.IRQ139_Handler) for IRQ139_Handler
+    startup_hc32f460.o(RESET) refers to hc32f460_ll_interrupts_share.o(i.IRQ140_Handler) for IRQ140_Handler
+    startup_hc32f460.o(RESET) refers to hc32f460_ll_interrupts_share.o(i.IRQ141_Handler) for IRQ141_Handler
+    startup_hc32f460.o(RESET) refers to hc32f460_ll_interrupts_share.o(i.IRQ142_Handler) for IRQ142_Handler
+    startup_hc32f460.o(RESET) refers to hc32f460_ll_interrupts_share.o(i.IRQ143_Handler) for IRQ143_Handler
+    startup_hc32f460.o(.text) refers to system_hc32f460.o(i.SystemInit) for SystemInit
+    startup_hc32f460.o(.text) refers to entry.o(.ARM.Collect$$$$00000000) for __main
+    system_hc32f460.o(i.$Sub$$main) refers to system_hc32f460.o(i.SystemCoreClockUpdate) for SystemCoreClockUpdate
+    system_hc32f460.o(i.$Sub$$main) refers to main.o(i.main) for $Super$$main
+    system_hc32f460.o(i.SystemCoreClockUpdate) refers to system_hc32f460.o(.data) for HRC_VALUE
+    system_hc32f460.o(i.SystemInit) refers to system_hc32f460.o(i.SystemCoreClockUpdate) for SystemCoreClockUpdate
+    main.o(i.App_ClkCfg) refers to hc32_ll_clk.o(i.CLK_SetClockDiv) for CLK_SetClockDiv
+    main.o(i.App_ClkCfg) refers to hc32_ll_sram.o(i.SRAM_SetWaitCycle) for SRAM_SetWaitCycle
+    main.o(i.App_ClkCfg) refers to hc32_ll_efm.o(i.EFM_SetWaitCycle) for EFM_SetWaitCycle
+    main.o(i.App_ClkCfg) refers to hc32_ll_clk.o(i.CLK_PLLStructInit) for CLK_PLLStructInit
+    main.o(i.App_ClkCfg) refers to hc32_ll_clk.o(i.CLK_PLLInit) for CLK_PLLInit
+    main.o(i.App_ClkCfg) refers to hc32_ll_gpio.o(i.GPIO_SetReadWaitCycle) for GPIO_SetReadWaitCycle
+    main.o(i.App_ClkCfg) refers to hc32_ll_pwc.o(i.PWC_HighSpeedToHighPerformance) for PWC_HighSpeedToHighPerformance
+    main.o(i.App_ClkCfg) refers to hc32_ll_clk.o(i.CLK_SetSysClockSrc) for CLK_SetSysClockSrc
+    main.o(i.App_PortCfg) refers to hc32_ll_gpio.o(i.GPIO_SetDebugPort) for GPIO_SetDebugPort
+    main.o(i.App_PortCfg) refers to hc32_ll_gpio.o(i.GPIO_SetFunc) for GPIO_SetFunc
+    main.o(i.App_PortCfg) refers to hc32_ll_gpio.o(i.GPIO_StructInit) for GPIO_StructInit
+    main.o(i.App_PortCfg) refers to hc32_ll_gpio.o(i.GPIO_Init) for GPIO_Init
+    main.o(i.App_SPIxCfg) refers to hc32_ll_fcg.o(i.FCG_Fcg1PeriphClockCmd) for FCG_Fcg1PeriphClockCmd
+    main.o(i.App_SPIxCfg) refers to hc32_ll_spi.o(i.SPI_StructInit) for SPI_StructInit
+    main.o(i.App_SPIxCfg) refers to hc32_ll_spi.o(i.SPI_Init) for SPI_Init
+    main.o(i.App_SPIxCfg) refers to hc32_ll_spi.o(i.SPI_DelayStructInit) for SPI_DelayStructInit
+    main.o(i.App_SPIxCfg) refers to hc32_ll_spi.o(i.SPI_DelayTimeConfig) for SPI_DelayTimeConfig
+    main.o(i.App_SPIxCfg) refers to hc32_ll_spi.o(i.SPI_LoopbackModeConfig) for SPI_LoopbackModeConfig
+    main.o(i.App_SPIxCfg) refers to hc32_ll_spi.o(i.SPI_ParityCheckCmd) for SPI_ParityCheckCmd
+    main.o(i.App_SPIxCfg) refers to hc32_ll_spi.o(i.SPI_SSPinSelect) for SPI_SSPinSelect
+    main.o(i.App_SPIxCfg) refers to hc32_ll_spi.o(i.SPI_SSValidLevelConfig) for SPI_SSValidLevelConfig
+    main.o(i.App_SPIxCfg) refers to hc32_ll_spi.o(i.SPI_Cmd) for SPI_Cmd
+    main.o(i.App_USARTxCfg) refers to hc32_ll_fcg.o(i.FCG_Fcg1PeriphClockCmd) for FCG_Fcg1PeriphClockCmd
+    main.o(i.App_USARTxCfg) refers to hc32_ll_usart.o(i.USART_DeInit) for USART_DeInit
+    main.o(i.App_USARTxCfg) refers to hc32_ll_usart.o(i.USART_UART_StructInit) for USART_UART_StructInit
+    main.o(i.App_USARTxCfg) refers to hc32_ll_usart.o(i.USART_UART_Init) for USART_UART_Init
+    main.o(i.App_USARTxCfg) refers to hc32_ll_usart.o(i.USART_FuncCmd) for USART_FuncCmd
+    main.o(i.main) refers to hc32_ll.o(i.LL_PERIPH_WE) for LL_PERIPH_WE
+    main.o(i.main) refers to main.o(i.App_ClkCfg) for App_ClkCfg
+    main.o(i.main) refers to main.o(i.App_PortCfg) for App_PortCfg
+    main.o(i.main) refers to main.o(i.App_USARTxCfg) for App_USARTxCfg
+    main.o(i.main) refers to main.o(i.App_SPIxCfg) for App_SPIxCfg
+    main.o(i.main) refers to hc32_ll.o(i.LL_PERIPH_WP) for LL_PERIPH_WP
+    hc32_ll.o(i.LL_PERIPH_WE) refers to hc32_ll.o(i.PWC_REG_Unlock) for PWC_REG_Unlock
+    hc32_ll.o(i.LL_PERIPH_WP) refers to hc32_ll.o(i.PWC_REG_Lock) for PWC_REG_Lock
+    hc32_ll_utility.o(i.DDL_DelayMS) refers to system_hc32f460.o(.data) for SystemCoreClock
+    hc32_ll_utility.o(i.DDL_DelayUS) refers to system_hc32f460.o(.data) for SystemCoreClock
+    hc32_ll_utility.o(i.SysTick_Delay) refers to hc32_ll_utility.o(i.SysTick_GetTick) for SysTick_GetTick
+    hc32_ll_utility.o(i.SysTick_Delay) refers to hc32_ll_utility.o(.data) for m_u32TickStep
+    hc32_ll_utility.o(i.SysTick_GetTick) refers to hc32_ll_utility.o(.data) for m_u32TickCount
+    hc32_ll_utility.o(i.SysTick_IncTick) refers to hc32_ll_utility.o(.data) for m_u32TickCount
+    hc32_ll_utility.o(i.SysTick_Init) refers to hc32_ll_utility.o(.data) for m_u32TickStep
+    hc32_ll_utility.o(i.SysTick_Init) refers to system_hc32f460.o(.data) for SystemCoreClock
+    hc32_ll_pwc.o(i.PWC_ClockBackup) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_pwc.o(i.PWC_ClockBackup) refers to hc32_ll_pwc.o(i.PWC_SetSysClk) for PWC_SetSysClk
+    hc32_ll_pwc.o(i.PWC_ClockBackup) refers to hc32_ll_pwc.o(.data) for m_u8HrcState
+    hc32_ll_pwc.o(i.PWC_ClockRecover) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_pwc.o(i.PWC_ClockRecover) refers to hc32_ll_pwc.o(i.PWC_SetSysClk) for PWC_SetSysClk
+    hc32_ll_pwc.o(i.PWC_ClockRecover) refers to system_hc32f460.o(i.SystemCoreClockUpdate) for SystemCoreClockUpdate
+    hc32_ll_pwc.o(i.PWC_ClockRecover) refers to hc32_ll_pwc.o(.data) for m_u8SysClockSrouce
+    hc32_ll_pwc.o(i.PWC_HighPerformanceToHighSpeed) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_pwc.o(i.PWC_HighPerformanceToHighSpeed) refers to hc32_ll_utility.o(i.DDL_DelayUS) for DDL_DelayUS
+    hc32_ll_pwc.o(i.PWC_HighPerformanceToLowSpeed) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_pwc.o(i.PWC_HighPerformanceToLowSpeed) refers to hc32_ll_utility.o(i.DDL_DelayUS) for DDL_DelayUS
+    hc32_ll_pwc.o(i.PWC_HighSpeedToHighPerformance) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_pwc.o(i.PWC_HighSpeedToHighPerformance) refers to hc32_ll_utility.o(i.DDL_DelayUS) for DDL_DelayUS
+    hc32_ll_pwc.o(i.PWC_HighSpeedToLowSpeed) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_pwc.o(i.PWC_HighSpeedToLowSpeed) refers to hc32_ll_utility.o(i.DDL_DelayUS) for DDL_DelayUS
+    hc32_ll_pwc.o(i.PWC_LDO_Cmd) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_pwc.o(i.PWC_LVD_ClearStatus) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_pwc.o(i.PWC_LVD_Cmd) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_pwc.o(i.PWC_LVD_CompareOutputCmd) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_pwc.o(i.PWC_LVD_DigitalFilterCmd) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_pwc.o(i.PWC_LVD_ExtInputCmd) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_pwc.o(i.PWC_LVD_GetStatus) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_pwc.o(i.PWC_LVD_Init) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_pwc.o(i.PWC_LVD_SetFilterClock) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_pwc.o(i.PWC_LVD_SetThresholdVoltage) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_pwc.o(i.PWC_LowSpeedToHighPerformance) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_pwc.o(i.PWC_LowSpeedToHighPerformance) refers to hc32_ll_utility.o(i.DDL_DelayUS) for DDL_DelayUS
+    hc32_ll_pwc.o(i.PWC_LowSpeedToHighSpeed) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_pwc.o(i.PWC_LowSpeedToHighSpeed) refers to hc32_ll_utility.o(i.DDL_DelayUS) for DDL_DelayUS
+    hc32_ll_pwc.o(i.PWC_PD_ClearWakeupStatus) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_pwc.o(i.PWC_PD_Config) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_pwc.o(i.PWC_PD_GetWakeupStatus) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_pwc.o(i.PWC_PD_PeriphRamCmd) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_pwc.o(i.PWC_PD_SetWakeupTriggerEdge) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_pwc.o(i.PWC_PD_VdrCmd) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_pwc.o(i.PWC_PowerMonitorCmd) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_pwc.o(i.PWC_RamModeConfig) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_pwc.o(i.PWC_RetSram_PowerCmd) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_pwc.o(i.PWC_SLEEP_Enter) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_pwc.o(i.PWC_STOP_ClockBackup) refers to hc32_ll_pwc.o(i.PWC_ClockBackup) for PWC_ClockBackup
+    hc32_ll_pwc.o(i.PWC_STOP_ClockBackup) refers to hc32_ll_pwc.o(.data) for m_u8StopFlag
+    hc32_ll_pwc.o(i.PWC_STOP_ClockRecover) refers to hc32_ll_pwc.o(i.PWC_ClockRecover) for PWC_ClockRecover
+    hc32_ll_pwc.o(i.PWC_STOP_ClockRecover) refers to hc32_ll_pwc.o(.data) for m_u8StopFlag
+    hc32_ll_pwc.o(i.PWC_STOP_ClockSelect) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_pwc.o(i.PWC_STOP_Config) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_pwc.o(i.PWC_STOP_Enter) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_pwc.o(i.PWC_STOP_Enter) refers to hc32_ll_pwc.o(i.PWC_STOP_NvicBackup) for PWC_STOP_NvicBackup
+    hc32_ll_pwc.o(i.PWC_STOP_Enter) refers to hc32_ll_pwc.o(i.PWC_STOP_ClockBackup) for PWC_STOP_ClockBackup
+    hc32_ll_pwc.o(i.PWC_STOP_Enter) refers to hc32_ll_pwc.o(i.PWC_STOP_ClockRecover) for PWC_STOP_ClockRecover
+    hc32_ll_pwc.o(i.PWC_STOP_Enter) refers to hc32_ll_pwc.o(i.PWC_STOP_NvicRecover) for PWC_STOP_NvicRecover
+    hc32_ll_pwc.o(i.PWC_STOP_FlashWaitCmd) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_pwc.o(i.PWC_STOP_IrqClockBackup) refers to hc32_ll_pwc.o(i.PWC_ClockBackup) for PWC_ClockBackup
+    hc32_ll_pwc.o(i.PWC_STOP_IrqClockBackup) refers to hc32_ll_pwc.o(.data) for m_u8StopFlag
+    hc32_ll_pwc.o(i.PWC_STOP_IrqClockRecover) refers to hc32_ll_pwc.o(i.PWC_ClockRecover) for PWC_ClockRecover
+    hc32_ll_pwc.o(i.PWC_STOP_IrqClockRecover) refers to hc32_ll_pwc.o(.data) for m_u8WkupIntCount
+    hc32_ll_pwc.o(i.PWC_STOP_NvicBackup) refers to hc32_ll_pwc.o(i.__NVIC_DisableIRQ) for __NVIC_DisableIRQ
+    hc32_ll_pwc.o(i.PWC_STOP_NvicBackup) refers to hc32_ll_pwc.o(.bss) for NVIC_ISER_BAK
+    hc32_ll_pwc.o(i.PWC_STOP_NvicRecover) refers to hc32_ll_pwc.o(.bss) for NVIC_ISER_BAK
+    hc32_ll_pwc.o(i.PWC_STOP_SetDrv) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_pwc.o(i.PWC_SetSysClk) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_pwc.o(i.PWC_SetSysClk) refers to hc32_ll_utility.o(i.DDL_DelayUS) for DDL_DelayUS
+    hc32_ll_pwc.o(i.PWC_SetSysClk) refers to system_hc32f460.o(i.SystemCoreClockUpdate) for SystemCoreClockUpdate
+    hc32_ll_pwc.o(i.PWC_WKT_ClearStatus) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_pwc.o(i.PWC_WKT_Cmd) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_pwc.o(i.PWC_WKT_Config) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_pwc.o(i.PWC_WKT_SetCompareValue) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_pwc.o(i.PWC_XTAL32_PowerCmd) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_sram.o(i.SRAM_ClearStatus) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_sram.o(i.SRAM_DeInit) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_sram.o(i.SRAM_GetStatus) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_sram.o(i.SRAM_SetEccMode) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_sram.o(i.SRAM_SetErrorMode) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_sram.o(i.SRAM_SetWaitCycle) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_efm.o(i.EFM_CacheCmd) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_efm.o(i.EFM_ChipErase) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_efm.o(i.EFM_ChipErase) refers to hc32_ll_efm.o(i.EFM_ClearStatus) for EFM_ClearStatus
+    hc32_ll_efm.o(i.EFM_ChipErase) refers to hc32_ll_efm.o(i.EFM_WaitFlag) for EFM_WaitFlag
+    hc32_ll_efm.o(i.EFM_ChipErase) refers to system_hc32f460.o(.data) for SystemCoreClock
+    hc32_ll_efm.o(i.EFM_ClearFlag) refers to hc32_ll_efm.o(i.EFM_ClearStatus) for EFM_ClearStatus
+    hc32_ll_efm.o(i.EFM_ClearFlag) refers to hc32_ll_efm.o(i.EFM_GetStatus) for EFM_GetStatus
+    hc32_ll_efm.o(i.EFM_ClearFlag) refers to system_hc32f460.o(.data) for SystemCoreClock
+    hc32_ll_efm.o(i.EFM_ClearStatus) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_efm.o(i.EFM_Cmd) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_efm.o(i.EFM_FWMC_Cmd) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_efm.o(i.EFM_GetAnyStatus) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_efm.o(i.EFM_GetStatus) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_efm.o(i.EFM_IntCmd) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_efm.o(i.EFM_LowVoltageCmd) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_efm.o(i.EFM_LowVoltageReadCmd) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_efm.o(i.EFM_OTP_Lock) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_efm.o(i.EFM_OTP_Lock) refers to hc32_ll_efm.o(i.EFM_WaitFlag) for EFM_WaitFlag
+    hc32_ll_efm.o(i.EFM_OTP_Lock) refers to hc32_ll_efm.o(i.EFM_ClearStatus) for EFM_ClearStatus
+    hc32_ll_efm.o(i.EFM_OTP_Lock) refers to system_hc32f460.o(.data) for SystemCoreClock
+    hc32_ll_efm.o(i.EFM_Program) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_efm.o(i.EFM_Program) refers to hc32_ll_efm.o(i.EFM_ClearStatus) for EFM_ClearStatus
+    hc32_ll_efm.o(i.EFM_Program) refers to hc32_ll_efm.o(i.EFM_WaitFlag) for EFM_WaitFlag
+    hc32_ll_efm.o(i.EFM_Program) refers to system_hc32f460.o(.data) for SystemCoreClock
+    hc32_ll_efm.o(i.EFM_ProgramWord) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_efm.o(i.EFM_ProgramWord) refers to hc32_ll_efm.o(i.EFM_ClearStatus) for EFM_ClearStatus
+    hc32_ll_efm.o(i.EFM_ProgramWord) refers to hc32_ll_efm.o(i.EFM_WaitFlag) for EFM_WaitFlag
+    hc32_ll_efm.o(i.EFM_ProgramWord) refers to system_hc32f460.o(.data) for SystemCoreClock
+    hc32_ll_efm.o(i.EFM_ProgramWordReadBack) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_efm.o(i.EFM_ProgramWordReadBack) refers to hc32_ll_efm.o(i.EFM_ClearStatus) for EFM_ClearStatus
+    hc32_ll_efm.o(i.EFM_ProgramWordReadBack) refers to hc32_ll_efm.o(i.EFM_WaitFlag) for EFM_WaitFlag
+    hc32_ll_efm.o(i.EFM_ProgramWordReadBack) refers to hc32_ll_efm.o(i.EFM_GetStatus) for EFM_GetStatus
+    hc32_ll_efm.o(i.EFM_ProgramWordReadBack) refers to system_hc32f460.o(.data) for SystemCoreClock
+    hc32_ll_efm.o(i.EFM_REMAP_Cmd) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_efm.o(i.EFM_REMAP_DeInit) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_efm.o(i.EFM_REMAP_Init) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_efm.o(i.EFM_REMAP_SetAddr) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_efm.o(i.EFM_REMAP_SetSize) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_efm.o(i.EFM_ReadByte) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_efm.o(i.EFM_ReadByte) refers to hc32_ll_efm.o(i.EFM_WaitFlag) for EFM_WaitFlag
+    hc32_ll_efm.o(i.EFM_ReadByte) refers to system_hc32f460.o(.data) for SystemCoreClock
+    hc32_ll_efm.o(i.EFM_SectorErase) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_efm.o(i.EFM_SectorErase) refers to hc32_ll_efm.o(i.EFM_ClearStatus) for EFM_ClearStatus
+    hc32_ll_efm.o(i.EFM_SectorErase) refers to hc32_ll_efm.o(i.EFM_WaitFlag) for EFM_WaitFlag
+    hc32_ll_efm.o(i.EFM_SectorErase) refers to system_hc32f460.o(.data) for SystemCoreClock
+    hc32_ll_efm.o(i.EFM_SequenceProgram) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_efm.o(i.EFM_SequenceProgram) refers to hc32_ll_efm.o(i.EFM_ClearStatus) for EFM_ClearStatus
+    hc32_ll_efm.o(i.EFM_SequenceProgram) refers to hc32_ll_efm.o(i.EFM_WaitFlag) for EFM_WaitFlag
+    hc32_ll_efm.o(i.EFM_SequenceProgram) refers to hc32_ll_efm.o(i.EFM_ClearFlag) for EFM_ClearFlag
+    hc32_ll_efm.o(i.EFM_SequenceProgram) refers to system_hc32f460.o(.data) for SystemCoreClock
+    hc32_ll_efm.o(i.EFM_SetBusStatus) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_efm.o(i.EFM_SetOperateMode) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_efm.o(i.EFM_SetOperateMode) refers to hc32_ll_efm.o(i.EFM_WaitFlag) for EFM_WaitFlag
+    hc32_ll_efm.o(i.EFM_SetOperateMode) refers to system_hc32f460.o(.data) for SystemCoreClock
+    hc32_ll_efm.o(i.EFM_SetWaitCycle) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_efm.o(i.EFM_SetWaitCycle) refers to system_hc32f460.o(.data) for SystemCoreClock
+    hc32_ll_efm.o(i.EFM_SetWindowProtectAddr) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_efm.o(i.EFM_SwapCmd) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_efm.o(i.EFM_SwapCmd) refers to hc32_ll_efm.o(i.EFM_WaitFlag) for EFM_WaitFlag
+    hc32_ll_efm.o(i.EFM_SwapCmd) refers to hc32_ll_efm.o(i.EFM_ClearStatus) for EFM_ClearStatus
+    hc32_ll_efm.o(i.EFM_SwapCmd) refers to system_hc32f460.o(.data) for SystemCoreClock
+    hc32_ll_efm.o(i.EFM_WaitFlag) refers to hc32_ll_efm.o(i.EFM_GetStatus) for EFM_GetStatus
+    hc32_ll_clk.o(i.CLK_ClearXtalStdStatus) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_clk.o(i.CLK_GetBusClockFreq) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_clk.o(i.CLK_GetBusClockFreq) refers to system_hc32f460.o(.data) for SystemCoreClock
+    hc32_ll_clk.o(i.CLK_GetClockFreq) refers to hc32_ll_clk.o(i.GetClockFreq) for GetClockFreq
+    hc32_ll_clk.o(i.CLK_GetPLLClockFreq) refers to system_hc32f460.o(.data) for HRC_VALUE
+    hc32_ll_clk.o(i.CLK_GetStableStatus) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_clk.o(i.CLK_HrcCmd) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_clk.o(i.CLK_HrcCmd) refers to hc32_ll_clk.o(i.CLK_WaitStable) for CLK_WaitStable
+    hc32_ll_clk.o(i.CLK_HrcTrim) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_clk.o(i.CLK_LrcCmd) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_clk.o(i.CLK_LrcCmd) refers to hc32_ll_clk.o(i.CLK_Delay) for CLK_Delay
+    hc32_ll_clk.o(i.CLK_LrcTrim) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_clk.o(i.CLK_MCOCmd) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_clk.o(i.CLK_MCOConfig) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_clk.o(i.CLK_MrcCmd) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_clk.o(i.CLK_MrcCmd) refers to hc32_ll_clk.o(i.CLK_Delay) for CLK_Delay
+    hc32_ll_clk.o(i.CLK_MrcTrim) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_clk.o(i.CLK_PLLCmd) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_clk.o(i.CLK_PLLCmd) refers to hc32_ll_clk.o(i.CLK_WaitStable) for CLK_WaitStable
+    hc32_ll_clk.o(i.CLK_PLLInit) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_clk.o(i.CLK_PLLInit) refers to hc32_ll_clk.o(i.CLK_PLLCmd) for CLK_PLLCmd
+    hc32_ll_clk.o(i.CLK_PLLInit) refers to system_hc32f460.o(.data) for HRC_VALUE
+    hc32_ll_clk.o(i.CLK_PLLxCmd) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_clk.o(i.CLK_PLLxCmd) refers to hc32_ll_clk.o(i.CLK_WaitStable) for CLK_WaitStable
+    hc32_ll_clk.o(i.CLK_PLLxInit) refers to hc32_ll_clk.o(i.PLLxParamCheck) for PLLxParamCheck
+    hc32_ll_clk.o(i.CLK_PLLxInit) refers to hc32_ll_clk.o(i.CLK_PLLxCmd) for CLK_PLLxCmd
+    hc32_ll_clk.o(i.CLK_SetClockDiv) refers to hc32_ll_clk.o(i.SetSysClockDiv) for SetSysClockDiv
+    hc32_ll_clk.o(i.CLK_SetClockDiv) refers to system_hc32f460.o(i.SystemCoreClockUpdate) for SystemCoreClockUpdate
+    hc32_ll_clk.o(i.CLK_SetI2SClockSrc) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_clk.o(i.CLK_SetPLLSrc) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_clk.o(i.CLK_SetPeriClockSrc) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_clk.o(i.CLK_SetSysClockSrc) refers to hc32_ll_clk.o(i.SetSysClockSrc) for SetSysClockSrc
+    hc32_ll_clk.o(i.CLK_SetSysClockSrc) refers to system_hc32f460.o(i.SystemCoreClockUpdate) for SystemCoreClockUpdate
+    hc32_ll_clk.o(i.CLK_SetTpiuClockDiv) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_clk.o(i.CLK_SetUSBClockSrc) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_clk.o(i.CLK_TpiuClockCmd) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_clk.o(i.CLK_WaitStable) refers to hc32_ll_clk.o(i.CLK_GetStableStatus) for CLK_GetStableStatus
+    hc32_ll_clk.o(i.CLK_Xtal32Cmd) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_clk.o(i.CLK_Xtal32Cmd) refers to hc32_ll_clk.o(i.CLK_Delay) for CLK_Delay
+    hc32_ll_clk.o(i.CLK_Xtal32Init) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_clk.o(i.CLK_Xtal32Init) refers to hc32_ll_clk.o(i.CLK_Xtal32Cmd) for CLK_Xtal32Cmd
+    hc32_ll_clk.o(i.CLK_XtalCmd) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_clk.o(i.CLK_XtalCmd) refers to hc32_ll_clk.o(i.CLK_WaitStable) for CLK_WaitStable
+    hc32_ll_clk.o(i.CLK_XtalInit) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_clk.o(i.CLK_XtalInit) refers to hc32_ll_clk.o(i.CLK_XtalCmd) for CLK_XtalCmd
+    hc32_ll_clk.o(i.CLK_XtalStdInit) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_clk.o(i.GetClockFreq) refers to system_hc32f460.o(.data) for HRC_VALUE
+    hc32_ll_clk.o(i.PLLxParamCheck) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_clk.o(i.PLLxParamCheck) refers to system_hc32f460.o(.data) for HRC_VALUE
+    hc32_ll_clk.o(i.SetSysClockDiv) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_clk.o(i.SetSysClockDiv) refers to hc32_ll_clk.o(i.CLK_Delay) for CLK_Delay
+    hc32_ll_clk.o(i.SetSysClockDiv) refers to system_hc32f460.o(.data) for SystemCoreClock
+    hc32_ll_clk.o(i.SetSysClockSrc) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_clk.o(i.SetSysClockSrc) refers to hc32_ll_clk.o(i.CLK_Delay) for CLK_Delay
+    hc32_ll_clk.o(i.SetSysClockSrc) refers to system_hc32f460.o(.data) for SystemCoreClock
+    hc32_ll_gpio.o(i.GPIO_DeInit) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_gpio.o(i.GPIO_DeInit) refers to hc32_ll_gpio.o(i.GPIO_StructInit) for GPIO_StructInit
+    hc32_ll_gpio.o(i.GPIO_DeInit) refers to hc32_ll_gpio.o(i.GPIO_Init) for GPIO_Init
+    hc32_ll_gpio.o(i.GPIO_DeInit) refers to hc32_ll_gpio.o(.constdata) for m_astcGpioPortPinTbl
+    hc32_ll_gpio.o(i.GPIO_Init) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_gpio.o(i.GPIO_InputMOSCmd) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_gpio.o(i.GPIO_OutputCmd) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_gpio.o(i.GPIO_ReadInputPins) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_gpio.o(i.GPIO_ReadInputPort) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_gpio.o(i.GPIO_ReadOutputPins) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_gpio.o(i.GPIO_ReadOutputPort) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_gpio.o(i.GPIO_ResetPins) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_gpio.o(i.GPIO_SetDebugPort) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_gpio.o(i.GPIO_SetFunc) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_gpio.o(i.GPIO_SetPins) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_gpio.o(i.GPIO_SetReadWaitCycle) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_gpio.o(i.GPIO_SetSubFunc) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_gpio.o(i.GPIO_SubFuncCmd) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_gpio.o(i.GPIO_TogglePins) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_gpio.o(i.GPIO_WritePort) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_fcg.o(i.FCG_Fcg0PeriphClockCmd) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_fcg.o(i.FCG_Fcg1PeriphClockCmd) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_fcg.o(i.FCG_Fcg2PeriphClockCmd) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_fcg.o(i.FCG_Fcg3PeriphClockCmd) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_aos.o(i.AOS_CommonTriggerCmd) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_aos.o(i.AOS_SetTriggerEventSrc) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_cmp.o(i.CMP_8BitDAC_AdcRefCmd) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_cmp.o(i.CMP_8BitDAC_Cmd) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_cmp.o(i.CMP_8BitDAC_WriteData) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_cmp.o(i.CMP_CompareOutCmd) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_cmp.o(i.CMP_DeInit) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_cmp.o(i.CMP_DelayUS) refers to system_hc32f460.o(.data) for SystemCoreClock
+    hc32_ll_cmp.o(i.CMP_FuncCmd) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_cmp.o(i.CMP_FuncCmd) refers to hc32_ll_cmp.o(i.CMP_DelayUS) for CMP_DelayUS
+    hc32_ll_cmp.o(i.CMP_GetScanInpSrc) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_cmp.o(i.CMP_GetStatus) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_cmp.o(i.CMP_IntCmd) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_cmp.o(i.CMP_NormalModeInit) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_cmp.o(i.CMP_NormalModeInit) refers to hc32_ll_cmp.o(i.CMP_DelayUS) for CMP_DelayUS
+    hc32_ll_cmp.o(i.CMP_PinVcoutCmd) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_cmp.o(i.CMP_ScanCmd) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_cmp.o(i.CMP_ScanTimeConfig) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_cmp.o(i.CMP_SetNegativeInput) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_cmp.o(i.CMP_SetNegativeInput) refers to hc32_ll_cmp.o(i.GetCmpFuncStatusAndDisFunc) for GetCmpFuncStatusAndDisFunc
+    hc32_ll_cmp.o(i.CMP_SetNegativeInput) refers to hc32_ll_cmp.o(i.RecoverCmpFuncStatus) for RecoverCmpFuncStatus
+    hc32_ll_cmp.o(i.CMP_SetOutDetectEdge) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_cmp.o(i.CMP_SetOutDetectEdge) refers to hc32_ll_cmp.o(i.GetCmpFuncStatusAndDisFunc) for GetCmpFuncStatusAndDisFunc
+    hc32_ll_cmp.o(i.CMP_SetOutDetectEdge) refers to hc32_ll_cmp.o(i.RecoverCmpFuncStatus) for RecoverCmpFuncStatus
+    hc32_ll_cmp.o(i.CMP_SetOutFilter) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_cmp.o(i.CMP_SetOutFilter) refers to hc32_ll_cmp.o(i.GetCmpFuncStatusAndDisFunc) for GetCmpFuncStatusAndDisFunc
+    hc32_ll_cmp.o(i.CMP_SetOutFilter) refers to hc32_ll_cmp.o(i.RecoverCmpFuncStatus) for RecoverCmpFuncStatus
+    hc32_ll_cmp.o(i.CMP_SetOutPolarity) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_cmp.o(i.CMP_SetOutPolarity) refers to hc32_ll_cmp.o(i.GetCmpFuncStatusAndDisFunc) for GetCmpFuncStatusAndDisFunc
+    hc32_ll_cmp.o(i.CMP_SetOutPolarity) refers to hc32_ll_cmp.o(i.RecoverCmpFuncStatus) for RecoverCmpFuncStatus
+    hc32_ll_cmp.o(i.CMP_SetPositiveInput) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_cmp.o(i.CMP_SetPositiveInput) refers to hc32_ll_cmp.o(i.GetCmpFuncStatusAndDisFunc) for GetCmpFuncStatusAndDisFunc
+    hc32_ll_cmp.o(i.CMP_SetPositiveInput) refers to hc32_ll_cmp.o(i.RecoverCmpFuncStatus) for RecoverCmpFuncStatus
+    hc32_ll_cmp.o(i.RecoverCmpFuncStatus) refers to hc32_ll_cmp.o(i.CMP_DelayUS) for CMP_DelayUS
+    hc32_ll_interrupts.o(i.EXTINT_ClearExtIntStatus) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_interrupts.o(i.EXTINT_GetExtIntStatus) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_interrupts.o(i.EXTINT_Init) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_interrupts.o(i.INTC_EventCmd) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_interrupts.o(i.INTC_IntCmd) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_interrupts.o(i.INTC_IrqSignIn) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_interrupts.o(i.INTC_IrqSignIn) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.INTC_IrqSignOut) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.INTC_SWIntCmd) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_interrupts.o(i.INTC_SWIntInit) refers to hc32_ll_interrupts.o(i.INTC_IrqSignIn) for INTC_IrqSignIn
+    hc32_ll_interrupts.o(i.INTC_WakeupSrcCmd) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_interrupts.o(i.IRQ000_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ001_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ002_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ003_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ004_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ005_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ006_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ007_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ008_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ009_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ010_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ011_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ012_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ013_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ014_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ015_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ016_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ017_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ018_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ019_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ020_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ021_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ022_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ023_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ024_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ025_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ026_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ027_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ028_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ029_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ030_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ031_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ032_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ033_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ034_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ035_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ036_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ037_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ038_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ039_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ040_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ041_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ042_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ043_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ044_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ045_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ046_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ047_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ048_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ049_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ050_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ051_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ052_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ053_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ054_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ055_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ056_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ057_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ058_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ059_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ060_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ061_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ062_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ063_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ064_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ065_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ066_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ067_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ068_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ069_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ070_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ071_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ072_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ073_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ074_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ075_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ076_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ077_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ078_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ079_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ080_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ081_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ082_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ083_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ084_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ085_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ086_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ087_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ088_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ089_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ090_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ091_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ092_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ093_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ094_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ095_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ096_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ097_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ098_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ099_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ100_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ101_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ102_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ103_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ104_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ105_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ106_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ107_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ108_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ109_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ110_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ111_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ112_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ113_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ114_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ115_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ116_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ117_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ118_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ119_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ120_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ121_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ122_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ123_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ124_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ125_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ126_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.IRQ127_Handler) refers to hc32_ll_interrupts.o(.bss) for m_apfnIrqHandler
+    hc32_ll_interrupts.o(i.NMI_ClearNmiStatus) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_interrupts.o(i.NMI_GetNmiStatus) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_interrupts.o(i.NMI_Init) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_interrupts.o(i.NMI_NmiSrcCmd) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32f460_ll_interrupts_share.o(i.INTC_ShareIrqCmd) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ128_Handler) refers to hc32f460_ll_interrupts_share.o(i.EXTINT00_IrqHandler) for EXTINT00_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ128_Handler) refers to hc32f460_ll_interrupts_share.o(i.EXTINT01_IrqHandler) for EXTINT01_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ128_Handler) refers to hc32f460_ll_interrupts_share.o(i.EXTINT02_IrqHandler) for EXTINT02_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ128_Handler) refers to hc32f460_ll_interrupts_share.o(i.EXTINT03_IrqHandler) for EXTINT03_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ128_Handler) refers to hc32f460_ll_interrupts_share.o(i.EXTINT04_IrqHandler) for EXTINT04_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ128_Handler) refers to hc32f460_ll_interrupts_share.o(i.EXTINT05_IrqHandler) for EXTINT05_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ128_Handler) refers to hc32f460_ll_interrupts_share.o(i.EXTINT06_IrqHandler) for EXTINT06_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ128_Handler) refers to hc32f460_ll_interrupts_share.o(i.EXTINT07_IrqHandler) for EXTINT07_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ128_Handler) refers to hc32f460_ll_interrupts_share.o(i.EXTINT08_IrqHandler) for EXTINT08_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ128_Handler) refers to hc32f460_ll_interrupts_share.o(i.EXTINT09_IrqHandler) for EXTINT09_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ128_Handler) refers to hc32f460_ll_interrupts_share.o(i.EXTINT10_IrqHandler) for EXTINT10_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ128_Handler) refers to hc32f460_ll_interrupts_share.o(i.EXTINT11_IrqHandler) for EXTINT11_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ128_Handler) refers to hc32f460_ll_interrupts_share.o(i.EXTINT12_IrqHandler) for EXTINT12_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ128_Handler) refers to hc32f460_ll_interrupts_share.o(i.EXTINT13_IrqHandler) for EXTINT13_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ128_Handler) refers to hc32f460_ll_interrupts_share.o(i.EXTINT14_IrqHandler) for EXTINT14_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ128_Handler) refers to hc32f460_ll_interrupts_share.o(i.EXTINT15_IrqHandler) for EXTINT15_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ129_Handler) refers to hc32f460_ll_interrupts_share.o(i.DMA1_TC0_IrqHandler) for DMA1_TC0_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ129_Handler) refers to hc32f460_ll_interrupts_share.o(i.DMA1_BTC0_IrqHandler) for DMA1_BTC0_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ129_Handler) refers to hc32f460_ll_interrupts_share.o(i.DMA1_Error0_IrqHandler) for DMA1_Error0_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ129_Handler) refers to hc32f460_ll_interrupts_share.o(i.DMA1_TC1_IrqHandler) for DMA1_TC1_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ129_Handler) refers to hc32f460_ll_interrupts_share.o(i.DMA1_BTC1_IrqHandler) for DMA1_BTC1_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ129_Handler) refers to hc32f460_ll_interrupts_share.o(i.DMA1_Error1_IrqHandler) for DMA1_Error1_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ129_Handler) refers to hc32f460_ll_interrupts_share.o(i.DMA1_TC2_IrqHandler) for DMA1_TC2_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ129_Handler) refers to hc32f460_ll_interrupts_share.o(i.DMA1_BTC2_IrqHandler) for DMA1_BTC2_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ129_Handler) refers to hc32f460_ll_interrupts_share.o(i.DMA1_Error2_IrqHandler) for DMA1_Error2_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ129_Handler) refers to hc32f460_ll_interrupts_share.o(i.DMA1_TC3_IrqHandler) for DMA1_TC3_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ129_Handler) refers to hc32f460_ll_interrupts_share.o(i.DMA1_BTC3_IrqHandler) for DMA1_BTC3_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ129_Handler) refers to hc32f460_ll_interrupts_share.o(i.DMA1_Error3_IrqHandler) for DMA1_Error3_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ129_Handler) refers to hc32f460_ll_interrupts_share.o(i.DMA2_TC0_IrqHandler) for DMA2_TC0_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ129_Handler) refers to hc32f460_ll_interrupts_share.o(i.DMA2_BTC0_IrqHandler) for DMA2_BTC0_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ129_Handler) refers to hc32f460_ll_interrupts_share.o(i.DMA2_Error0_IrqHandler) for DMA2_Error0_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ129_Handler) refers to hc32f460_ll_interrupts_share.o(i.DMA2_TC1_IrqHandler) for DMA2_TC1_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ129_Handler) refers to hc32f460_ll_interrupts_share.o(i.DMA2_BTC1_IrqHandler) for DMA2_BTC1_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ129_Handler) refers to hc32f460_ll_interrupts_share.o(i.DMA2_Error1_IrqHandler) for DMA2_Error1_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ129_Handler) refers to hc32f460_ll_interrupts_share.o(i.DMA2_TC2_IrqHandler) for DMA2_TC2_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ129_Handler) refers to hc32f460_ll_interrupts_share.o(i.DMA2_BTC2_IrqHandler) for DMA2_BTC2_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ129_Handler) refers to hc32f460_ll_interrupts_share.o(i.DMA2_Error2_IrqHandler) for DMA2_Error2_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ129_Handler) refers to hc32f460_ll_interrupts_share.o(i.DMA2_TC3_IrqHandler) for DMA2_TC3_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ129_Handler) refers to hc32f460_ll_interrupts_share.o(i.DMA2_BTC3_IrqHandler) for DMA2_BTC3_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ129_Handler) refers to hc32f460_ll_interrupts_share.o(i.DMA2_Error3_IrqHandler) for DMA2_Error3_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ129_Handler) refers to hc32f460_ll_interrupts_share.o(i.EFM_ProgramEraseError_IrqHandler) for EFM_ProgramEraseError_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ129_Handler) refers to hc32f460_ll_interrupts_share.o(i.EFM_ColError_IrqHandler) for EFM_ColError_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ129_Handler) refers to hc32f460_ll_interrupts_share.o(i.EFM_OpEnd_IrqHandler) for EFM_OpEnd_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ129_Handler) refers to hc32f460_ll_interrupts_share.o(i.QSPI_Error_IrqHandler) for QSPI_Error_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ129_Handler) refers to hc32f460_ll_interrupts_share.o(i.DCU1_IrqHandler) for DCU1_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ129_Handler) refers to hc32f460_ll_interrupts_share.o(i.DCU2_IrqHandler) for DCU2_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ129_Handler) refers to hc32f460_ll_interrupts_share.o(i.DCU3_IrqHandler) for DCU3_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ129_Handler) refers to hc32f460_ll_interrupts_share.o(i.DCU4_IrqHandler) for DCU4_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ130_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR0_1_CmpA_IrqHandler) for TMR0_1_CmpA_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ130_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR0_1_CmpB_IrqHandler) for TMR0_1_CmpB_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ130_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR0_2_CmpA_IrqHandler) for TMR0_2_CmpA_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ130_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR0_2_CmpB_IrqHandler) for TMR0_2_CmpB_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ130_Handler) refers to hc32f460_ll_interrupts_share.o(i.CLK_XtalStop_IrqHandler) for CLK_XtalStop_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ130_Handler) refers to hc32f460_ll_interrupts_share.o(i.PWC_WakeupTimer_IrqHandler) for PWC_WakeupTimer_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ130_Handler) refers to hc32f460_ll_interrupts_share.o(i.SWDT_IrqHandler) for SWDT_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ131_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR6_1_GCmpA_IrqHandler) for TMR6_1_GCmpA_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ131_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR6_1_GCmpB_IrqHandler) for TMR6_1_GCmpB_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ131_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR6_1_GCmpC_IrqHandler) for TMR6_1_GCmpC_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ131_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR6_1_GCmpD_IrqHandler) for TMR6_1_GCmpD_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ131_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR6_1_GCmpE_IrqHandler) for TMR6_1_GCmpE_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ131_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR6_1_GCmpF_IrqHandler) for TMR6_1_GCmpF_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ131_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR6_1_GOvf_IrqHandler) for TMR6_1_GOvf_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ131_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR6_1_GUdf_IrqHandler) for TMR6_1_GUdf_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ131_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR6_1_GDte_IrqHandler) for TMR6_1_GDte_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ131_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR6_1_SCmpA_IrqHandler) for TMR6_1_SCmpA_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ131_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR6_1_SCmpB_IrqHandler) for TMR6_1_SCmpB_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ131_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR6_2_GCmpA_IrqHandler) for TMR6_2_GCmpA_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ131_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR6_2_GCmpB_IrqHandler) for TMR6_2_GCmpB_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ131_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR6_2_GCmpC_IrqHandler) for TMR6_2_GCmpC_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ131_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR6_2_GCmpD_IrqHandler) for TMR6_2_GCmpD_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ131_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR6_2_GCmpE_IrqHandler) for TMR6_2_GCmpE_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ131_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR6_2_GCmpF_IrqHandler) for TMR6_2_GCmpF_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ131_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR6_2_GOvf_IrqHandler) for TMR6_2_GOvf_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ131_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR6_2_GUdf_IrqHandler) for TMR6_2_GUdf_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ131_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR6_2_GDte_IrqHandler) for TMR6_2_GDte_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ131_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR6_2_SCmpA_IrqHandler) for TMR6_2_SCmpA_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ131_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR6_2_SCmpB_IrqHandler) for TMR6_2_SCmpB_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ132_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR6_3_GCmpA_IrqHandler) for TMR6_3_GCmpA_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ132_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR6_3_GCmpB_IrqHandler) for TMR6_3_GCmpB_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ132_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR6_3_GCmpC_IrqHandler) for TMR6_3_GCmpC_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ132_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR6_3_GCmpD_IrqHandler) for TMR6_3_GCmpD_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ132_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR6_3_GCmpE_IrqHandler) for TMR6_3_GCmpE_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ132_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR6_3_GCmpF_IrqHandler) for TMR6_3_GCmpF_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ132_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR6_3_GOvf_IrqHandler) for TMR6_3_GOvf_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ132_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR6_3_GUdf_IrqHandler) for TMR6_3_GUdf_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ132_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR6_3_GDte_IrqHandler) for TMR6_3_GDte_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ132_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR6_3_SCmpA_IrqHandler) for TMR6_3_SCmpA_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ132_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR6_3_SCmpB_IrqHandler) for TMR6_3_SCmpB_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ136_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMRA_1_Ovf_IrqHandler) for TMRA_1_Ovf_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ136_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMRA_1_Udf_IrqHandler) for TMRA_1_Udf_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ136_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMRA_1_Cmp_IrqHandler) for TMRA_1_Cmp_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ136_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMRA_2_Ovf_IrqHandler) for TMRA_2_Ovf_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ136_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMRA_2_Udf_IrqHandler) for TMRA_2_Udf_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ136_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMRA_2_Cmp_IrqHandler) for TMRA_2_Cmp_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ136_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMRA_3_Ovf_IrqHandler) for TMRA_3_Ovf_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ136_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMRA_3_Udf_IrqHandler) for TMRA_3_Udf_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ136_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMRA_3_Cmp_IrqHandler) for TMRA_3_Cmp_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ136_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMRA_4_Ovf_IrqHandler) for TMRA_4_Ovf_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ136_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMRA_4_Udf_IrqHandler) for TMRA_4_Udf_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ136_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMRA_4_Cmp_IrqHandler) for TMRA_4_Cmp_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ136_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMRA_5_Ovf_IrqHandler) for TMRA_5_Ovf_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ136_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMRA_5_Udf_IrqHandler) for TMRA_5_Udf_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ136_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMRA_5_Cmp_IrqHandler) for TMRA_5_Cmp_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ136_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMRA_6_Ovf_IrqHandler) for TMRA_6_Ovf_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ136_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMRA_6_Udf_IrqHandler) for TMRA_6_Udf_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ136_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMRA_6_Cmp_IrqHandler) for TMRA_6_Cmp_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ136_Handler) refers to hc32f460_ll_interrupts_share.o(i.USBFS_Global_IrqHandler) for USBFS_Global_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ136_Handler) refers to hc32f460_ll_interrupts_share.o(i.USART1_RxError_IrqHandler) for USART1_RxError_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ136_Handler) refers to hc32f460_ll_interrupts_share.o(i.USART1_RxFull_IrqHandler) for USART1_RxFull_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ136_Handler) refers to hc32f460_ll_interrupts_share.o(i.USART1_TxEmpty_IrqHandler) for USART1_TxEmpty_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ136_Handler) refers to hc32f460_ll_interrupts_share.o(i.USART1_TxComplete_IrqHandler) for USART1_TxComplete_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ136_Handler) refers to hc32f460_ll_interrupts_share.o(i.USART1_RxTO_IrqHandler) for USART1_RxTO_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ136_Handler) refers to hc32f460_ll_interrupts_share.o(i.USART2_RxError_IrqHandler) for USART2_RxError_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ136_Handler) refers to hc32f460_ll_interrupts_share.o(i.USART2_RxFull_IrqHandler) for USART2_RxFull_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ136_Handler) refers to hc32f460_ll_interrupts_share.o(i.USART2_TxEmpty_IrqHandler) for USART2_TxEmpty_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ136_Handler) refers to hc32f460_ll_interrupts_share.o(i.USART2_TxComplete_IrqHandler) for USART2_TxComplete_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ136_Handler) refers to hc32f460_ll_interrupts_share.o(i.USART2_RxTO_IrqHandler) for USART2_RxTO_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ137_Handler) refers to hc32f460_ll_interrupts_share.o(i.USART3_RxError_IrqHandler) for USART3_RxError_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ137_Handler) refers to hc32f460_ll_interrupts_share.o(i.USART3_RxFull_IrqHandler) for USART3_RxFull_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ137_Handler) refers to hc32f460_ll_interrupts_share.o(i.USART3_TxEmpty_IrqHandler) for USART3_TxEmpty_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ137_Handler) refers to hc32f460_ll_interrupts_share.o(i.USART3_TxComplete_IrqHandler) for USART3_TxComplete_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ137_Handler) refers to hc32f460_ll_interrupts_share.o(i.USART3_RxTO_IrqHandler) for USART3_RxTO_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ137_Handler) refers to hc32f460_ll_interrupts_share.o(i.USART4_RxError_IrqHandler) for USART4_RxError_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ137_Handler) refers to hc32f460_ll_interrupts_share.o(i.USART4_RxFull_IrqHandler) for USART4_RxFull_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ137_Handler) refers to hc32f460_ll_interrupts_share.o(i.USART4_TxEmpty_IrqHandler) for USART4_TxEmpty_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ137_Handler) refers to hc32f460_ll_interrupts_share.o(i.USART4_TxComplete_IrqHandler) for USART4_TxComplete_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ137_Handler) refers to hc32f460_ll_interrupts_share.o(i.USART4_RxTO_IrqHandler) for USART4_RxTO_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ137_Handler) refers to hc32f460_ll_interrupts_share.o(i.SPI1_RxFull_IrqHandler) for SPI1_RxFull_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ137_Handler) refers to hc32f460_ll_interrupts_share.o(i.SPI1_TxEmpty_IrqHandler) for SPI1_TxEmpty_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ137_Handler) refers to hc32f460_ll_interrupts_share.o(i.SPI1_Idle_IrqHandler) for SPI1_Idle_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ137_Handler) refers to hc32f460_ll_interrupts_share.o(i.SPI1_Error_IrqHandler) for SPI1_Error_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ137_Handler) refers to hc32f460_ll_interrupts_share.o(i.SPI2_RxFull_IrqHandler) for SPI2_RxFull_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ137_Handler) refers to hc32f460_ll_interrupts_share.o(i.SPI2_TxEmpty_IrqHandler) for SPI2_TxEmpty_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ137_Handler) refers to hc32f460_ll_interrupts_share.o(i.SPI2_Idle_IrqHandler) for SPI2_Idle_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ137_Handler) refers to hc32f460_ll_interrupts_share.o(i.SPI2_Error_IrqHandler) for SPI2_Error_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ137_Handler) refers to hc32f460_ll_interrupts_share.o(i.SPI3_RxFull_IrqHandler) for SPI3_RxFull_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ137_Handler) refers to hc32f460_ll_interrupts_share.o(i.SPI3_TxEmpty_IrqHandler) for SPI3_TxEmpty_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ137_Handler) refers to hc32f460_ll_interrupts_share.o(i.SPI3_Idle_IrqHandler) for SPI3_Idle_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ137_Handler) refers to hc32f460_ll_interrupts_share.o(i.SPI3_Error_IrqHandler) for SPI3_Error_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ137_Handler) refers to hc32f460_ll_interrupts_share.o(i.SPI4_RxFull_IrqHandler) for SPI4_RxFull_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ137_Handler) refers to hc32f460_ll_interrupts_share.o(i.SPI4_TxEmpty_IrqHandler) for SPI4_TxEmpty_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ137_Handler) refers to hc32f460_ll_interrupts_share.o(i.SPI4_Idle_IrqHandler) for SPI4_Idle_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ137_Handler) refers to hc32f460_ll_interrupts_share.o(i.SPI4_Error_IrqHandler) for SPI4_Error_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ138_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR4_1_GCmpUH_IrqHandler) for TMR4_1_GCmpUH_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ138_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR4_1_GCmpUL_IrqHandler) for TMR4_1_GCmpUL_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ138_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR4_1_GCmpVH_IrqHandler) for TMR4_1_GCmpVH_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ138_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR4_1_GCmpVL_IrqHandler) for TMR4_1_GCmpVL_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ138_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR4_1_GCmpWH_IrqHandler) for TMR4_1_GCmpWH_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ138_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR4_1_GCmpWL_IrqHandler) for TMR4_1_GCmpWL_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ138_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR4_1_GOvf_IrqHandler) for TMR4_1_GOvf_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ138_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR4_1_GUdf_IrqHandler) for TMR4_1_GUdf_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ138_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR4_1_ReloadU_IrqHandler) for TMR4_1_ReloadU_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ138_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR4_1_ReloadV_IrqHandler) for TMR4_1_ReloadV_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ138_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR4_1_ReloadW_IrqHandler) for TMR4_1_ReloadW_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ138_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR4_2_GCmpVH_IrqHandler) for TMR4_2_GCmpVH_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ138_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR4_2_GCmpVL_IrqHandler) for TMR4_2_GCmpVL_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ138_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR4_2_GCmpWH_IrqHandler) for TMR4_2_GCmpWH_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ138_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR4_2_GCmpWL_IrqHandler) for TMR4_2_GCmpWL_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ138_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR4_2_GOvf_IrqHandler) for TMR4_2_GOvf_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ138_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR4_2_GUdf_IrqHandler) for TMR4_2_GUdf_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ138_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR4_2_ReloadU_IrqHandler) for TMR4_2_ReloadU_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ138_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR4_2_ReloadV_IrqHandler) for TMR4_2_ReloadV_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ138_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR4_2_ReloadW_IrqHandler) for TMR4_2_ReloadW_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ139_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR4_3_GCmpUH_IrqHandler) for TMR4_3_GCmpUH_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ139_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR4_3_GCmpUL_IrqHandler) for TMR4_3_GCmpUL_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ139_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR4_3_GCmpVH_IrqHandler) for TMR4_3_GCmpVH_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ139_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR4_3_GCmpVL_IrqHandler) for TMR4_3_GCmpVL_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ139_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR4_3_GCmpWH_IrqHandler) for TMR4_3_GCmpWH_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ139_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR4_3_GCmpWL_IrqHandler) for TMR4_3_GCmpWL_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ139_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR4_3_GOvf_IrqHandler) for TMR4_3_GOvf_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ139_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR4_3_GUdf_IrqHandler) for TMR4_3_GUdf_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ139_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR4_1_ReloadU_IrqHandler) for TMR4_1_ReloadU_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ139_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR4_3_ReloadV_IrqHandler) for TMR4_3_ReloadV_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ139_Handler) refers to hc32f460_ll_interrupts_share.o(i.TMR4_3_ReloadW_IrqHandler) for TMR4_3_ReloadW_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ140_Handler) refers to hc32f460_ll_interrupts_share.o(i.EMB_GR0_IrqHandler) for EMB_GR0_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ140_Handler) refers to hc32f460_ll_interrupts_share.o(i.EMB_GR1_IrqHandler) for EMB_GR1_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ140_Handler) refers to hc32f460_ll_interrupts_share.o(i.EMB_GR2_IrqHandler) for EMB_GR2_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ140_Handler) refers to hc32f460_ll_interrupts_share.o(i.EMB_GR3_IrqHandler) for EMB_GR3_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ140_Handler) refers to hc32f460_ll_interrupts_share.o(i.I2S1_Tx_IrqHandler) for I2S1_Tx_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ140_Handler) refers to hc32f460_ll_interrupts_share.o(i.I2S1_Rx_IrqHandler) for I2S1_Rx_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ140_Handler) refers to hc32f460_ll_interrupts_share.o(i.I2S1_Error_IrqHandler) for I2S1_Error_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ140_Handler) refers to hc32f460_ll_interrupts_share.o(i.I2S2_Tx_IrqHandler) for I2S2_Tx_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ140_Handler) refers to hc32f460_ll_interrupts_share.o(i.I2S2_Rx_IrqHandler) for I2S2_Rx_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ140_Handler) refers to hc32f460_ll_interrupts_share.o(i.I2S2_Error_IrqHandler) for I2S2_Error_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ140_Handler) refers to hc32f460_ll_interrupts_share.o(i.I2S3_Tx_IrqHandler) for I2S3_Tx_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ140_Handler) refers to hc32f460_ll_interrupts_share.o(i.I2S3_Rx_IrqHandler) for I2S3_Rx_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ140_Handler) refers to hc32f460_ll_interrupts_share.o(i.I2S3_Error_IrqHandler) for I2S3_Error_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ140_Handler) refers to hc32f460_ll_interrupts_share.o(i.I2S4_Tx_IrqHandler) for I2S4_Tx_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ140_Handler) refers to hc32f460_ll_interrupts_share.o(i.I2S4_Rx_IrqHandler) for I2S4_Rx_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ140_Handler) refers to hc32f460_ll_interrupts_share.o(i.I2S4_Error_IrqHandler) for I2S4_Error_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ141_Handler) refers to hc32f460_ll_interrupts_share.o(i.I2C1_RxFull_IrqHandler) for I2C1_RxFull_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ141_Handler) refers to hc32f460_ll_interrupts_share.o(i.I2C1_TxEmpty_IrqHandler) for I2C1_TxEmpty_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ141_Handler) refers to hc32f460_ll_interrupts_share.o(i.I2C1_TxComplete_IrqHandler) for I2C1_TxComplete_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ141_Handler) refers to hc32f460_ll_interrupts_share.o(i.I2C1_Error_IrqHandler) for I2C1_Error_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ141_Handler) refers to hc32f460_ll_interrupts_share.o(i.I2C2_RxFull_IrqHandler) for I2C2_RxFull_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ141_Handler) refers to hc32f460_ll_interrupts_share.o(i.I2C2_TxEmpty_IrqHandler) for I2C2_TxEmpty_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ141_Handler) refers to hc32f460_ll_interrupts_share.o(i.I2C2_TxComplete_IrqHandler) for I2C2_TxComplete_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ141_Handler) refers to hc32f460_ll_interrupts_share.o(i.I2C2_Error_IrqHandler) for I2C2_Error_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ141_Handler) refers to hc32f460_ll_interrupts_share.o(i.I2C3_RxFull_IrqHandler) for I2C3_RxFull_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ141_Handler) refers to hc32f460_ll_interrupts_share.o(i.I2C3_TxEmpty_IrqHandler) for I2C3_TxEmpty_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ141_Handler) refers to hc32f460_ll_interrupts_share.o(i.I2C3_TxComplete_IrqHandler) for I2C3_TxComplete_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ141_Handler) refers to hc32f460_ll_interrupts_share.o(i.I2C3_Error_IrqHandler) for I2C3_Error_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ141_Handler) refers to hc32f460_ll_interrupts_share.o(i.PWC_LVD1_IrqHandler) for PWC_LVD1_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ141_Handler) refers to hc32f460_ll_interrupts_share.o(i.PWC_LVD2_IrqHandler) for PWC_LVD2_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ141_Handler) refers to hc32f460_ll_interrupts_share.o(i.FCM_Error_IrqHandler) for FCM_Error_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ141_Handler) refers to hc32f460_ll_interrupts_share.o(i.FCM_End_IrqHandler) for FCM_End_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ141_Handler) refers to hc32f460_ll_interrupts_share.o(i.FCM_Ovf_IrqHandler) for FCM_Ovf_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ141_Handler) refers to hc32f460_ll_interrupts_share.o(i.WDT_IrqHandler) for WDT_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ142_Handler) refers to hc32f460_ll_interrupts_share.o(i.ADC1_SeqA_IrqHandler) for ADC1_SeqA_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ142_Handler) refers to hc32f460_ll_interrupts_share.o(i.ADC1_SeqB_IrqHandler) for ADC1_SeqB_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ142_Handler) refers to hc32f460_ll_interrupts_share.o(i.ADC1_ChCmp_IrqHandler) for ADC1_ChCmp_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ142_Handler) refers to hc32f460_ll_interrupts_share.o(i.ADC1_SeqCmp_IrqHandler) for ADC1_SeqCmp_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ142_Handler) refers to hc32f460_ll_interrupts_share.o(i.ADC2_SeqA_IrqHandler) for ADC2_SeqA_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ142_Handler) refers to hc32f460_ll_interrupts_share.o(i.ADC2_SeqB_IrqHandler) for ADC2_SeqB_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ142_Handler) refers to hc32f460_ll_interrupts_share.o(i.ADC2_ChCmp_IrqHandler) for ADC2_ChCmp_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ142_Handler) refers to hc32f460_ll_interrupts_share.o(i.ADC2_SeqCmp_IrqHandler) for ADC2_SeqCmp_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ143_Handler) refers to hc32f460_ll_interrupts_share.o(i.SDIOC1_IrqHandler) for SDIOC1_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ143_Handler) refers to hc32f460_ll_interrupts_share.o(i.SDIOC2_IrqHandler) for SDIOC2_IrqHandler
+    hc32f460_ll_interrupts_share.o(i.IRQ143_Handler) refers to hc32f460_ll_interrupts_share.o(i.CAN_IrqHandler) for CAN_IrqHandler
+    hc32_ll_usart.o(i.ClockSync_CalculateDiv) refers to hc32_ll_usart.o(i.ClockSync_CalculateDivFraction) for ClockSync_CalculateDivFraction
+    hc32_ll_usart.o(i.ClockSync_CalculateDiv) refers to hc32_ll_usart.o(i.ClockSync_CalculateDivInteger) for ClockSync_CalculateDivInteger
+    hc32_ll_usart.o(i.ClockSync_CalculateDivFraction) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_usart.o(i.ClockSync_CalculateDivFraction) refers to uldiv.o(.text) for __aeabi_uldivmod
+    hc32_ll_usart.o(i.ClockSync_CalculateDivFraction) refers to dfltul.o(.text) for __aeabi_ul2d
+    hc32_ll_usart.o(i.ClockSync_CalculateDivFraction) refers to ddiv.o(.text) for __aeabi_ddiv
+    hc32_ll_usart.o(i.ClockSync_CalculateDivFraction) refers to d2f.o(.text) for __aeabi_d2f
+    hc32_ll_usart.o(i.ClockSync_CalculateDivFraction) refers to fadd.o(.text) for __aeabi_fsub
+    hc32_ll_usart.o(i.ClockSync_CalculateDivInteger) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_usart.o(i.ClockSync_CalculateDivInteger) refers to dfltul.o(.text) for __aeabi_ul2d
+    hc32_ll_usart.o(i.ClockSync_CalculateDivInteger) refers to dfltui.o(.text) for __aeabi_ui2d
+    hc32_ll_usart.o(i.ClockSync_CalculateDivInteger) refers to ddiv.o(.text) for __aeabi_ddiv
+    hc32_ll_usart.o(i.ClockSync_CalculateDivInteger) refers to d2f.o(.text) for __aeabi_d2f
+    hc32_ll_usart.o(i.ClockSync_CalculateDivInteger) refers to fadd.o(.text) for __aeabi_fsub
+    hc32_ll_usart.o(i.SmartCard_CalculateDiv) refers to hc32_ll_usart.o(i.SmartCard_CalculateDivFraction) for SmartCard_CalculateDivFraction
+    hc32_ll_usart.o(i.SmartCard_CalculateDiv) refers to hc32_ll_usart.o(i.SmartCard_CalculateDivInteger) for SmartCard_CalculateDivInteger
+    hc32_ll_usart.o(i.SmartCard_CalculateDivFraction) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_usart.o(i.SmartCard_CalculateDivFraction) refers to uldiv.o(.text) for __aeabi_uldivmod
+    hc32_ll_usart.o(i.SmartCard_CalculateDivFraction) refers to dfltul.o(.text) for __aeabi_ul2d
+    hc32_ll_usart.o(i.SmartCard_CalculateDivFraction) refers to ddiv.o(.text) for __aeabi_ddiv
+    hc32_ll_usart.o(i.SmartCard_CalculateDivFraction) refers to d2f.o(.text) for __aeabi_d2f
+    hc32_ll_usart.o(i.SmartCard_CalculateDivFraction) refers to fadd.o(.text) for __aeabi_fsub
+    hc32_ll_usart.o(i.SmartCard_CalculateDivFraction) refers to hc32_ll_usart.o(.constdata) for .constdata
+    hc32_ll_usart.o(i.SmartCard_CalculateDivInteger) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_usart.o(i.SmartCard_CalculateDivInteger) refers to dfltul.o(.text) for __aeabi_ul2d
+    hc32_ll_usart.o(i.SmartCard_CalculateDivInteger) refers to dfltui.o(.text) for __aeabi_ui2d
+    hc32_ll_usart.o(i.SmartCard_CalculateDivInteger) refers to ddiv.o(.text) for __aeabi_ddiv
+    hc32_ll_usart.o(i.SmartCard_CalculateDivInteger) refers to d2f.o(.text) for __aeabi_d2f
+    hc32_ll_usart.o(i.SmartCard_CalculateDivInteger) refers to fadd.o(.text) for __aeabi_fsub
+    hc32_ll_usart.o(i.SmartCard_CalculateDivInteger) refers to hc32_ll_usart.o(.constdata) for .constdata
+    hc32_ll_usart.o(i.UART_CalculateDiv) refers to hc32_ll_usart.o(i.UART_CalculateDivFraction) for UART_CalculateDivFraction
+    hc32_ll_usart.o(i.UART_CalculateDiv) refers to hc32_ll_usart.o(i.UART_CalculateDivInteger) for UART_CalculateDivInteger
+    hc32_ll_usart.o(i.UART_CalculateDivFraction) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_usart.o(i.UART_CalculateDivFraction) refers to uldiv.o(.text) for __aeabi_uldivmod
+    hc32_ll_usart.o(i.UART_CalculateDivFraction) refers to dfltul.o(.text) for __aeabi_ul2d
+    hc32_ll_usart.o(i.UART_CalculateDivFraction) refers to ddiv.o(.text) for __aeabi_ddiv
+    hc32_ll_usart.o(i.UART_CalculateDivFraction) refers to d2f.o(.text) for __aeabi_d2f
+    hc32_ll_usart.o(i.UART_CalculateDivFraction) refers to fadd.o(.text) for __aeabi_fsub
+    hc32_ll_usart.o(i.UART_CalculateDivInteger) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_usart.o(i.UART_CalculateDivInteger) refers to dfltul.o(.text) for __aeabi_ul2d
+    hc32_ll_usart.o(i.UART_CalculateDivInteger) refers to dfltui.o(.text) for __aeabi_ui2d
+    hc32_ll_usart.o(i.UART_CalculateDivInteger) refers to ddiv.o(.text) for __aeabi_ddiv
+    hc32_ll_usart.o(i.UART_CalculateDivInteger) refers to d2f.o(.text) for __aeabi_d2f
+    hc32_ll_usart.o(i.UART_CalculateDivInteger) refers to fadd.o(.text) for __aeabi_fsub
+    hc32_ll_usart.o(i.USART_ClearStatus) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_usart.o(i.USART_ClockSync_Init) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_usart.o(i.USART_ClockSync_Init) refers to hc32_ll_usart.o(i.USART_SetBaudrate) for USART_SetBaudrate
+    hc32_ll_usart.o(i.USART_ClockSync_Receive) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_usart.o(i.USART_ClockSync_Receive) refers to hc32_ll_usart.o(i.USART_WriteData) for USART_WriteData
+    hc32_ll_usart.o(i.USART_ClockSync_Receive) refers to hc32_ll_usart.o(i.USART_WaitStatus) for USART_WaitStatus
+    hc32_ll_usart.o(i.USART_ClockSync_Receive) refers to hc32_ll_usart.o(i.USART_ReadData) for USART_ReadData
+    hc32_ll_usart.o(i.USART_ClockSync_Trans) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_usart.o(i.USART_ClockSync_Trans) refers to hc32_ll_usart.o(i.USART_WaitStatus) for USART_WaitStatus
+    hc32_ll_usart.o(i.USART_ClockSync_Trans) refers to hc32_ll_usart.o(i.USART_WriteData) for USART_WriteData
+    hc32_ll_usart.o(i.USART_ClockSync_Trans) refers to hc32_ll_usart.o(i.USART_ReadData) for USART_ReadData
+    hc32_ll_usart.o(i.USART_ClockSync_TransReceive) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_usart.o(i.USART_ClockSync_TransReceive) refers to hc32_ll_usart.o(i.USART_WriteData) for USART_WriteData
+    hc32_ll_usart.o(i.USART_ClockSync_TransReceive) refers to hc32_ll_usart.o(i.USART_WaitStatus) for USART_WaitStatus
+    hc32_ll_usart.o(i.USART_ClockSync_TransReceive) refers to hc32_ll_usart.o(i.USART_ReadData) for USART_ReadData
+    hc32_ll_usart.o(i.USART_DeInit) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_usart.o(i.USART_FilterCmd) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_usart.o(i.USART_FuncCmd) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_usart.o(i.USART_GetBusClockFreq) refers to system_hc32f460.o(.data) for SystemCoreClock
+    hc32_ll_usart.o(i.USART_GetClockDiv) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_usart.o(i.USART_GetClockSrc) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_usart.o(i.USART_GetStatus) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_usart.o(i.USART_GetUsartClockFreq) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_usart.o(i.USART_GetUsartClockFreq) refers to hc32_ll_usart.o(i.USART_GetBusClockFreq) for USART_GetBusClockFreq
+    hc32_ll_usart.o(i.USART_MultiProcessor_Init) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_usart.o(i.USART_MultiProcessor_Init) refers to hc32_ll_usart.o(i.USART_SetBaudrate) for USART_SetBaudrate
+    hc32_ll_usart.o(i.USART_ReadData) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_usart.o(i.USART_SetBaudrate) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_usart.o(i.USART_SetBaudrate) refers to hc32_ll_usart.o(i.USART_GetUsartClockFreq) for USART_GetUsartClockFreq
+    hc32_ll_usart.o(i.USART_SetBaudrate) refers to hc32_ll_usart.o(i.UART_CalculateDiv) for UART_CalculateDiv
+    hc32_ll_usart.o(i.USART_SetBaudrate) refers to hc32_ll_usart.o(i.SmartCard_CalculateDiv) for SmartCard_CalculateDiv
+    hc32_ll_usart.o(i.USART_SetBaudrate) refers to hc32_ll_usart.o(i.ClockSync_CalculateDiv) for ClockSync_CalculateDiv
+    hc32_ll_usart.o(i.USART_SetClockDiv) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_usart.o(i.USART_SetClockSrc) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_usart.o(i.USART_SetDataWidth) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_usart.o(i.USART_SetFirstBit) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_usart.o(i.USART_SetHWFlowControl) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_usart.o(i.USART_SetOverSampleBit) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_usart.o(i.USART_SetParity) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_usart.o(i.USART_SetStartBitPolarity) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_usart.o(i.USART_SetStopBit) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_usart.o(i.USART_SetTransType) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_usart.o(i.USART_SilenceCmd) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_usart.o(i.USART_SmartCard_Init) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_usart.o(i.USART_SmartCard_Init) refers to hc32_ll_usart.o(i.USART_SetBaudrate) for USART_SetBaudrate
+    hc32_ll_usart.o(i.USART_SmartCard_SetEtuClock) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_usart.o(i.USART_UART_Init) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_usart.o(i.USART_UART_Init) refers to hc32_ll_usart.o(i.USART_SetBaudrate) for USART_SetBaudrate
+    hc32_ll_usart.o(i.USART_UART_Receive) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_usart.o(i.USART_UART_Receive) refers to hc32_ll_usart.o(i.USART_WaitStatus) for USART_WaitStatus
+    hc32_ll_usart.o(i.USART_UART_Receive) refers to hc32_ll_usart.o(i.USART_ReadData) for USART_ReadData
+    hc32_ll_usart.o(i.USART_UART_Trans) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_usart.o(i.USART_UART_Trans) refers to hc32_ll_usart.o(i.USART_WaitStatus) for USART_WaitStatus
+    hc32_ll_usart.o(i.USART_UART_Trans) refers to hc32_ll_usart.o(i.USART_WriteData) for USART_WriteData
+    hc32_ll_usart.o(i.USART_WaitStatus) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_usart.o(i.USART_WaitStatus) refers to hc32_ll_usart.o(i.USART_GetStatus) for USART_GetStatus
+    hc32_ll_usart.o(i.USART_WriteData) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_usart.o(i.USART_WriteID) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_spi.o(i.SPI_ClearStatus) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_spi.o(i.SPI_Cmd) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_spi.o(i.SPI_DeInit) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_spi.o(i.SPI_DelayTimeConfig) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_spi.o(i.SPI_GetStatus) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_spi.o(i.SPI_Init) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_spi.o(i.SPI_IntCmd) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_spi.o(i.SPI_LoopbackModeConfig) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_spi.o(i.SPI_ParityCheckCmd) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_spi.o(i.SPI_ReadBufConfig) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_spi.o(i.SPI_ReadData) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_spi.o(i.SPI_Receive) refers to hc32_ll_spi.o(i.SPI_TxRx) for SPI_TxRx
+    hc32_ll_spi.o(i.SPI_SSPinSelect) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_spi.o(i.SPI_SSValidLevelConfig) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    hc32_ll_spi.o(i.SPI_Trans) refers to hc32_ll_spi.o(i.SPI_Tx) for SPI_Tx
+    hc32_ll_spi.o(i.SPI_Trans) refers to hc32_ll_spi.o(i.SPI_TxRx) for SPI_TxRx
+    hc32_ll_spi.o(i.SPI_TransReceive) refers to hc32_ll_spi.o(i.SPI_TxRx) for SPI_TxRx
+    hc32_ll_spi.o(i.SPI_Tx) refers to hc32_ll_spi.o(i.SPI_WaitStatus) for SPI_WaitStatus
+    hc32_ll_spi.o(i.SPI_TxRx) refers to hc32_ll_spi.o(i.SPI_WaitStatus) for SPI_WaitStatus
+    hc32_ll_spi.o(i.SPI_WriteData) refers to hc32_ll_utility.o(i.DDL_AssertHandler) for DDL_AssertHandler
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry10a.o(.ARM.Collect$$$$0000000D) for __rt_final_cpp
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry11a.o(.ARM.Collect$$$$0000000F) for __rt_final_exit
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry7b.o(.ARM.Collect$$$$00000008) for _main_clock
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry8b.o(.ARM.Collect$$$$0000000A) for _main_cpp_init
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry9a.o(.ARM.Collect$$$$0000000B) for _main_init
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry5.o(.ARM.Collect$$$$00000004) for _main_scatterload
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry2.o(.ARM.Collect$$$$00000001) for _main_stk
+    uldiv.o(.text) refers to llushr.o(.text) for __aeabi_llsr
+    uldiv.o(.text) refers to llshl.o(.text) for __aeabi_llsl
+    fadd.o(.text) refers (Special) to iusefp.o(.text) for __I$use$fp
+    fadd.o(.text) refers to fepilogue.o(.text) for _float_epilogue
+    ddiv.o(.text) refers (Special) to iusefp.o(.text) for __I$use$fp
+    ddiv.o(.text) refers to depilogue.o(.text) for _double_round
+    dfltui.o(.text) refers (Special) to iusefp.o(.text) for __I$use$fp
+    dfltui.o(.text) refers to depilogue.o(.text) for _double_epilogue
+    dfltul.o(.text) refers (Special) to iusefp.o(.text) for __I$use$fp
+    dfltul.o(.text) refers to depilogue.o(.text) for _double_epilogue
+    d2f.o(.text) refers (Special) to iusefp.o(.text) for __I$use$fp
+    d2f.o(.text) refers to fepilogue.o(.text) for _float_round
+    entry2.o(.ARM.Collect$$$$00000001) refers to entry2.o(.ARM.Collect$$$$00002712) for __lit__00000000
+    entry2.o(.ARM.Collect$$$$00002712) refers to startup_hc32f460.o(STACK) for __initial_sp
+    entry2.o(__vectab_stack_and_reset_area) refers to startup_hc32f460.o(STACK) for __initial_sp
+    entry2.o(__vectab_stack_and_reset_area) refers to entry.o(.ARM.Collect$$$$00000000) for __main
+    entry5.o(.ARM.Collect$$$$00000004) refers to init.o(.text) for __scatterload
+    entry9a.o(.ARM.Collect$$$$0000000B) refers to system_hc32f460.o(i.$Sub$$main) for main
+    entry9b.o(.ARM.Collect$$$$0000000C) refers to system_hc32f460.o(i.$Sub$$main) for main
+    depilogue.o(.text) refers to llshl.o(.text) for __aeabi_llsl
+    depilogue.o(.text) refers to llushr.o(.text) for __aeabi_llsr
+    init.o(.text) refers to entry5.o(.ARM.Collect$$$$00000004) for __main_after_scatterload
+
+
+==============================================================================
+
+Removing Unused input sections from the image.
+
+    Removing startup_hc32f460.o(HEAP), (8192 bytes).
+    Removing system_hc32f460.o(.rev16_text), (4 bytes).
+    Removing system_hc32f460.o(.revsh_text), (4 bytes).
+    Removing system_hc32f460.o(.rrx_text), (6 bytes).
+    Removing main.o(.rev16_text), (4 bytes).
+    Removing main.o(.revsh_text), (4 bytes).
+    Removing main.o(.rrx_text), (6 bytes).
+    Removing main.o(.data), (2 bytes).
+    Removing st7735s.o(.rev16_text), (4 bytes).
+    Removing st7735s.o(.revsh_text), (4 bytes).
+    Removing st7735s.o(.rrx_text), (6 bytes).
+    Removing st7735s.o(i.sent_8bit), (24 bytes).
+    Removing hc32_ll.o(.rev16_text), (4 bytes).
+    Removing hc32_ll.o(.revsh_text), (4 bytes).
+    Removing hc32_ll.o(.rrx_text), (6 bytes).
+    Removing hc32_ll_icg.o(.rev16_text), (4 bytes).
+    Removing hc32_ll_icg.o(.revsh_text), (4 bytes).
+    Removing hc32_ll_icg.o(.rrx_text), (6 bytes).
+    Removing hc32_ll_utility.o(.rev16_text), (4 bytes).
+    Removing hc32_ll_utility.o(.revsh_text), (4 bytes).
+    Removing hc32_ll_utility.o(.rrx_text), (6 bytes).
+    Removing hc32_ll_utility.o(i.DDL_DelayMS), (64 bytes).
+    Removing hc32_ll_utility.o(i.SysTick_Delay), (76 bytes).
+    Removing hc32_ll_utility.o(i.SysTick_GetTick), (12 bytes).
+    Removing hc32_ll_utility.o(i.SysTick_IncTick), (24 bytes).
+    Removing hc32_ll_utility.o(i.SysTick_Init), (144 bytes).
+    Removing hc32_ll_utility.o(i.SysTick_Resume), (18 bytes).
+    Removing hc32_ll_utility.o(i.SysTick_Suspend), (18 bytes).
+    Removing hc32_ll_utility.o(.data), (8 bytes).
+    Removing hc32_ll_pwc.o(.rev16_text), (4 bytes).
+    Removing hc32_ll_pwc.o(.revsh_text), (4 bytes).
+    Removing hc32_ll_pwc.o(.rrx_text), (6 bytes).
+    Removing hc32_ll_pwc.o(RAMCODE), (84 bytes).
+    Removing hc32_ll_pwc.o(i.PWC_ClockBackup), (224 bytes).
+    Removing hc32_ll_pwc.o(i.PWC_ClockRecover), (152 bytes).
+    Removing hc32_ll_pwc.o(i.PWC_HighPerformanceToHighSpeed), (100 bytes).
+    Removing hc32_ll_pwc.o(i.PWC_HighPerformanceToLowSpeed), (220 bytes).
+    Removing hc32_ll_pwc.o(i.PWC_HighSpeedToLowSpeed), (220 bytes).
+    Removing hc32_ll_pwc.o(i.PWC_LDO_Cmd), (152 bytes).
+    Removing hc32_ll_pwc.o(i.PWC_LVD_ClearStatus), (112 bytes).
+    Removing hc32_ll_pwc.o(i.PWC_LVD_Cmd), (156 bytes).
+    Removing hc32_ll_pwc.o(i.PWC_LVD_CompareOutputCmd), (160 bytes).
+    Removing hc32_ll_pwc.o(i.PWC_LVD_DigitalFilterCmd), (160 bytes).
+    Removing hc32_ll_pwc.o(i.PWC_LVD_ExtInputCmd), (128 bytes).
+    Removing hc32_ll_pwc.o(i.PWC_LVD_GetStatus), (80 bytes).
+    Removing hc32_ll_pwc.o(i.PWC_LVD_Init), (568 bytes).
+    Removing hc32_ll_pwc.o(i.PWC_LVD_SetFilterClock), (160 bytes).
+    Removing hc32_ll_pwc.o(i.PWC_LVD_SetThresholdVoltage), (176 bytes).
+    Removing hc32_ll_pwc.o(i.PWC_LVD_StructInit), (32 bytes).
+    Removing hc32_ll_pwc.o(i.PWC_LowSpeedToHighPerformance), (220 bytes).
+    Removing hc32_ll_pwc.o(i.PWC_LowSpeedToHighSpeed), (220 bytes).
+    Removing hc32_ll_pwc.o(i.PWC_PD_ClearWakeupStatus), (96 bytes).
+    Removing hc32_ll_pwc.o(i.PWC_PD_Config), (128 bytes).
+    Removing hc32_ll_pwc.o(i.PWC_PD_GetWakeupStatus), (100 bytes).
+    Removing hc32_ll_pwc.o(i.PWC_PD_PeriphRamCmd), (152 bytes).
+    Removing hc32_ll_pwc.o(i.PWC_PD_SetWakeupTriggerEdge), (152 bytes).
+    Removing hc32_ll_pwc.o(i.PWC_PD_StructInit), (20 bytes).
+    Removing hc32_ll_pwc.o(i.PWC_PD_VdrCmd), (128 bytes).
+    Removing hc32_ll_pwc.o(i.PWC_PD_WakeupCmd), (84 bytes).
+    Removing hc32_ll_pwc.o(i.PWC_PowerMonitorCmd), (128 bytes).
+    Removing hc32_ll_pwc.o(i.PWC_RamModeConfig), (108 bytes).
+    Removing hc32_ll_pwc.o(i.PWC_RetSram_PowerCmd), (128 bytes).
+    Removing hc32_ll_pwc.o(i.PWC_SLEEP_Enter), (100 bytes).
+    Removing hc32_ll_pwc.o(i.PWC_STOP_ClockBackup), (24 bytes).
+    Removing hc32_ll_pwc.o(i.PWC_STOP_ClockRecover), (24 bytes).
+    Removing hc32_ll_pwc.o(i.PWC_STOP_ClockSelect), (112 bytes).
+    Removing hc32_ll_pwc.o(i.PWC_STOP_Config), (208 bytes).
+    Removing hc32_ll_pwc.o(i.PWC_STOP_Enter), (116 bytes).
+    Removing hc32_ll_pwc.o(i.PWC_STOP_FlashWaitCmd), (124 bytes).
+    Removing hc32_ll_pwc.o(i.PWC_STOP_IrqClockBackup), (44 bytes).
+    Removing hc32_ll_pwc.o(i.PWC_STOP_IrqClockRecover), (36 bytes).
+    Removing hc32_ll_pwc.o(i.PWC_STOP_NvicBackup), (768 bytes).
+    Removing hc32_ll_pwc.o(i.PWC_STOP_NvicRecover), (36 bytes).
+    Removing hc32_ll_pwc.o(i.PWC_STOP_SetDrv), (112 bytes).
+    Removing hc32_ll_pwc.o(i.PWC_STOP_StructInit), (20 bytes).
+    Removing hc32_ll_pwc.o(i.PWC_SetSysClk), (176 bytes).
+    Removing hc32_ll_pwc.o(i.PWC_WKT_ClearStatus), (84 bytes).
+    Removing hc32_ll_pwc.o(i.PWC_WKT_Cmd), (128 bytes).
+    Removing hc32_ll_pwc.o(i.PWC_WKT_Config), (136 bytes).
+    Removing hc32_ll_pwc.o(i.PWC_WKT_GetCompareValue), (16 bytes).
+    Removing hc32_ll_pwc.o(i.PWC_WKT_GetStatus), (24 bytes).
+    Removing hc32_ll_pwc.o(i.PWC_WKT_SetCompareValue), (112 bytes).
+    Removing hc32_ll_pwc.o(i.PWC_XTAL32_PowerCmd), (128 bytes).
+    Removing hc32_ll_pwc.o(i.__NVIC_DisableIRQ), (36 bytes).
+    Removing hc32_ll_pwc.o(.bss), (20 bytes).
+    Removing hc32_ll_pwc.o(.data), (5 bytes).
+    Removing hc32_ll_sram.o(.rev16_text), (4 bytes).
+    Removing hc32_ll_sram.o(.revsh_text), (4 bytes).
+    Removing hc32_ll_sram.o(.rrx_text), (6 bytes).
+    Removing hc32_ll_sram.o(i.SRAM_ClearStatus), (76 bytes).
+    Removing hc32_ll_sram.o(i.SRAM_DeInit), (112 bytes).
+    Removing hc32_ll_sram.o(i.SRAM_GetStatus), (80 bytes).
+    Removing hc32_ll_sram.o(i.SRAM_Init), (20 bytes).
+    Removing hc32_ll_sram.o(i.SRAM_SetEccMode), (144 bytes).
+    Removing hc32_ll_sram.o(i.SRAM_SetErrorMode), (132 bytes).
+    Removing hc32_ll_efm.o(.rev16_text), (4 bytes).
+    Removing hc32_ll_efm.o(.revsh_text), (4 bytes).
+    Removing hc32_ll_efm.o(.rrx_text), (6 bytes).
+    Removing hc32_ll_efm.o(i.EFM_CacheCmd), (92 bytes).
+    Removing hc32_ll_efm.o(i.EFM_ChipErase), (288 bytes).
+    Removing hc32_ll_efm.o(i.EFM_ClearFlag), (84 bytes).
+    Removing hc32_ll_efm.o(i.EFM_ClearStatus), (108 bytes).
+    Removing hc32_ll_efm.o(i.EFM_Cmd), (136 bytes).
+    Removing hc32_ll_efm.o(i.EFM_FWMC_Cmd), (64 bytes).
+    Removing hc32_ll_efm.o(i.EFM_GetAnyStatus), (84 bytes).
+    Removing hc32_ll_efm.o(i.EFM_GetStatus), (84 bytes).
+    Removing hc32_ll_efm.o(i.EFM_GetSwapStatus), (20 bytes).
+    Removing hc32_ll_efm.o(i.EFM_GetUID), (32 bytes).
+    Removing hc32_ll_efm.o(i.EFM_IntCmd), (144 bytes).
+    Removing hc32_ll_efm.o(i.EFM_LowVoltageCmd), (64 bytes).
+    Removing hc32_ll_efm.o(i.EFM_LowVoltageReadCmd), (92 bytes).
+    Removing hc32_ll_efm.o(i.EFM_OTP_Lock), (284 bytes).
+    Removing hc32_ll_efm.o(i.EFM_Program), (484 bytes).
+    Removing hc32_ll_efm.o(i.EFM_ProgramWord), (328 bytes).
+    Removing hc32_ll_efm.o(i.EFM_ProgramWordReadBack), (356 bytes).
+    Removing hc32_ll_efm.o(i.EFM_REMAP_Cmd), (140 bytes).
+    Removing hc32_ll_efm.o(i.EFM_REMAP_DeInit), (72 bytes).
+    Removing hc32_ll_efm.o(i.EFM_REMAP_Init), (236 bytes).
+    Removing hc32_ll_efm.o(i.EFM_REMAP_SetAddr), (152 bytes).
+    Removing hc32_ll_efm.o(i.EFM_REMAP_SetSize), (128 bytes).
+    Removing hc32_ll_efm.o(i.EFM_REMAP_StructInit), (22 bytes).
+    Removing hc32_ll_efm.o(i.EFM_ReadByte), (240 bytes).
+    Removing hc32_ll_efm.o(i.EFM_SectorErase), (304 bytes).
+    Removing hc32_ll_efm.o(i.EFM_SequenceProgram), (572 bytes).
+    Removing hc32_ll_efm.o(i.EFM_SetBusStatus), (120 bytes).
+    Removing hc32_ll_efm.o(i.EFM_SetOperateMode), (208 bytes).
+    Removing hc32_ll_efm.o(i.EFM_SetWindowProtectAddr), (152 bytes).
+    Removing hc32_ll_efm.o(i.EFM_SwapCmd), (352 bytes).
+    Removing hc32_ll_efm.o(i.EFM_WaitFlag), (48 bytes).
+    Removing hc32_ll_clk.o(.rev16_text), (4 bytes).
+    Removing hc32_ll_clk.o(.revsh_text), (4 bytes).
+    Removing hc32_ll_clk.o(.rrx_text), (6 bytes).
+    Removing hc32_ll_clk.o(i.CLK_ClearXtalStdStatus), (80 bytes).
+    Removing hc32_ll_clk.o(i.CLK_GetBusClockFreq), (276 bytes).
+    Removing hc32_ll_clk.o(i.CLK_GetClockFreq), (22 bytes).
+    Removing hc32_ll_clk.o(i.CLK_GetPLLClockFreq), (332 bytes).
+    Removing hc32_ll_clk.o(i.CLK_GetXtalStdStatus), (20 bytes).
+    Removing hc32_ll_clk.o(i.CLK_HrcCmd), (180 bytes).
+    Removing hc32_ll_clk.o(i.CLK_HrcTrim), (72 bytes).
+    Removing hc32_ll_clk.o(i.CLK_LrcCmd), (140 bytes).
+    Removing hc32_ll_clk.o(i.CLK_LrcTrim), (72 bytes).
+    Removing hc32_ll_clk.o(i.CLK_MCOCmd), (136 bytes).
+    Removing hc32_ll_clk.o(i.CLK_MCOConfig), (220 bytes).
+    Removing hc32_ll_clk.o(i.CLK_MrcCmd), (136 bytes).
+    Removing hc32_ll_clk.o(i.CLK_MrcTrim), (72 bytes).
+    Removing hc32_ll_clk.o(i.CLK_PLLxCmd), (164 bytes).
+    Removing hc32_ll_clk.o(i.CLK_PLLxInit), (56 bytes).
+    Removing hc32_ll_clk.o(i.CLK_PLLxStructInit), (74 bytes).
+    Removing hc32_ll_clk.o(i.CLK_SetI2SClockSrc), (176 bytes).
+    Removing hc32_ll_clk.o(i.CLK_SetPLLSrc), (108 bytes).
+    Removing hc32_ll_clk.o(i.CLK_SetPeriClockSrc), (116 bytes).
+    Removing hc32_ll_clk.o(i.CLK_SetTpiuClockDiv), (116 bytes).
+    Removing hc32_ll_clk.o(i.CLK_SetUSBClockSrc), (124 bytes).
+    Removing hc32_ll_clk.o(i.CLK_TpiuClockCmd), (116 bytes).
+    Removing hc32_ll_clk.o(i.CLK_Xtal32Cmd), (140 bytes).
+    Removing hc32_ll_clk.o(i.CLK_Xtal32Init), (196 bytes).
+    Removing hc32_ll_clk.o(i.CLK_Xtal32StructInit), (20 bytes).
+    Removing hc32_ll_clk.o(i.CLK_XtalCmd), (180 bytes).
+    Removing hc32_ll_clk.o(i.CLK_XtalInit), (308 bytes).
+    Removing hc32_ll_clk.o(i.CLK_XtalStdInit), (200 bytes).
+    Removing hc32_ll_clk.o(i.CLK_XtalStdStructInit), (22 bytes).
+    Removing hc32_ll_clk.o(i.CLK_XtalStructInit), (30 bytes).
+    Removing hc32_ll_clk.o(i.GetClockFreq), (264 bytes).
+    Removing hc32_ll_clk.o(i.PLLxParamCheck), (576 bytes).
+    Removing hc32_ll_gpio.o(.rev16_text), (4 bytes).
+    Removing hc32_ll_gpio.o(.revsh_text), (4 bytes).
+    Removing hc32_ll_gpio.o(.rrx_text), (6 bytes).
+    Removing hc32_ll_gpio.o(i.GPIO_DeInit), (132 bytes).
+    Removing hc32_ll_gpio.o(i.GPIO_InputMOSCmd), (172 bytes).
+    Removing hc32_ll_gpio.o(i.GPIO_OutputCmd), (156 bytes).
+    Removing hc32_ll_gpio.o(i.GPIO_ReadInputPins), (120 bytes).
+    Removing hc32_ll_gpio.o(i.GPIO_ReadInputPort), (88 bytes).
+    Removing hc32_ll_gpio.o(i.GPIO_ReadOutputPins), (120 bytes).
+    Removing hc32_ll_gpio.o(i.GPIO_ReadOutputPort), (88 bytes).
+    Removing hc32_ll_gpio.o(i.GPIO_ResetPins), (116 bytes).
+    Removing hc32_ll_gpio.o(i.GPIO_SetPins), (116 bytes).
+    Removing hc32_ll_gpio.o(i.GPIO_SetSubFunc), (116 bytes).
+    Removing hc32_ll_gpio.o(i.GPIO_SubFuncCmd), (192 bytes).
+    Removing hc32_ll_gpio.o(i.GPIO_TogglePins), (116 bytes).
+    Removing hc32_ll_gpio.o(i.GPIO_WritePort), (88 bytes).
+    Removing hc32_ll_gpio.o(.constdata), (24 bytes).
+    Removing hc32_ll_fcg.o(.rev16_text), (4 bytes).
+    Removing hc32_ll_fcg.o(.revsh_text), (4 bytes).
+    Removing hc32_ll_fcg.o(.rrx_text), (6 bytes).
+    Removing hc32_ll_fcg.o(i.FCG_Fcg0PeriphClockCmd), (140 bytes).
+    Removing hc32_ll_fcg.o(i.FCG_Fcg2PeriphClockCmd), (116 bytes).
+    Removing hc32_ll_fcg.o(i.FCG_Fcg3PeriphClockCmd), (116 bytes).
+    Removing hc32_ll_aos.o(.rev16_text), (4 bytes).
+    Removing hc32_ll_aos.o(.revsh_text), (4 bytes).
+    Removing hc32_ll_aos.o(.rrx_text), (6 bytes).
+    Removing hc32_ll_aos.o(i.AOS_CommonTriggerCmd), (284 bytes).
+    Removing hc32_ll_aos.o(i.AOS_SetTriggerEventSrc), (224 bytes).
+    Removing hc32_ll_cmp.o(.rev16_text), (4 bytes).
+    Removing hc32_ll_cmp.o(.revsh_text), (4 bytes).
+    Removing hc32_ll_cmp.o(.rrx_text), (6 bytes).
+    Removing hc32_ll_cmp.o(i.CMP_8BitDAC_AdcRefCmd), (120 bytes).
+    Removing hc32_ll_cmp.o(i.CMP_8BitDAC_Cmd), (120 bytes).
+    Removing hc32_ll_cmp.o(i.CMP_8BitDAC_WriteData), (100 bytes).
+    Removing hc32_ll_cmp.o(i.CMP_CompareOutCmd), (124 bytes).
+    Removing hc32_ll_cmp.o(i.CMP_DeInit), (120 bytes).
+    Removing hc32_ll_cmp.o(i.CMP_DelayUS), (60 bytes).
+    Removing hc32_ll_cmp.o(i.CMP_FuncCmd), (128 bytes).
+    Removing hc32_ll_cmp.o(i.CMP_GetScanInpSrc), (84 bytes).
+    Removing hc32_ll_cmp.o(i.CMP_GetStatus), (84 bytes).
+    Removing hc32_ll_cmp.o(i.CMP_IntCmd), (124 bytes).
+    Removing hc32_ll_cmp.o(i.CMP_NormalModeInit), (492 bytes).
+    Removing hc32_ll_cmp.o(i.CMP_PinVcoutCmd), (124 bytes).
+    Removing hc32_ll_cmp.o(i.CMP_ScanCmd), (124 bytes).
+    Removing hc32_ll_cmp.o(i.CMP_ScanTimeConfig), (176 bytes).
+    Removing hc32_ll_cmp.o(i.CMP_SetNegativeInput), (144 bytes).
+    Removing hc32_ll_cmp.o(i.CMP_SetOutDetectEdge), (140 bytes).
+    Removing hc32_ll_cmp.o(i.CMP_SetOutFilter), (156 bytes).
+    Removing hc32_ll_cmp.o(i.CMP_SetOutPolarity), (136 bytes).
+    Removing hc32_ll_cmp.o(i.CMP_SetPositiveInput), (252 bytes).
+    Removing hc32_ll_cmp.o(i.CMP_StructInit), (24 bytes).
+    Removing hc32_ll_cmp.o(i.GetCmpFuncStatusAndDisFunc), (18 bytes).
+    Removing hc32_ll_cmp.o(i.RecoverCmpFuncStatus), (30 bytes).
+    Removing hc32_ll_interrupts.o(.rev16_text), (4 bytes).
+    Removing hc32_ll_interrupts.o(.revsh_text), (4 bytes).
+    Removing hc32_ll_interrupts.o(.rrx_text), (6 bytes).
+    Removing hc32_ll_interrupts.o(i.EXTINT_ClearExtIntStatus), (84 bytes).
+    Removing hc32_ll_interrupts.o(i.EXTINT_GetExtIntStatus), (88 bytes).
+    Removing hc32_ll_interrupts.o(i.EXTINT_Init), (240 bytes).
+    Removing hc32_ll_interrupts.o(i.EXTINT_StructInit), (20 bytes).
+    Removing hc32_ll_interrupts.o(i.INTC_EventCmd), (124 bytes).
+    Removing hc32_ll_interrupts.o(i.INTC_IntCmd), (124 bytes).
+    Removing hc32_ll_interrupts.o(i.INTC_IrqSignIn), (208 bytes).
+    Removing hc32_ll_interrupts.o(i.INTC_IrqSignOut), (56 bytes).
+    Removing hc32_ll_interrupts.o(i.INTC_SWIntCmd), (124 bytes).
+    Removing hc32_ll_interrupts.o(i.INTC_SWIntInit), (160 bytes).
+    Removing hc32_ll_interrupts.o(i.INTC_WakeupSrcCmd), (120 bytes).
+    Removing hc32_ll_interrupts.o(i.NMI_ClearNmiStatus), (84 bytes).
+    Removing hc32_ll_interrupts.o(i.NMI_GetNmiStatus), (88 bytes).
+    Removing hc32_ll_interrupts.o(i.NMI_Init), (204 bytes).
+    Removing hc32_ll_interrupts.o(i.NMI_NmiSrcCmd), (124 bytes).
+    Removing hc32_ll_interrupts.o(i.NMI_StructInit), (22 bytes).
+    Removing hc32f460_ll_interrupts_share.o(.rev16_text), (4 bytes).
+    Removing hc32f460_ll_interrupts_share.o(.revsh_text), (4 bytes).
+    Removing hc32f460_ll_interrupts_share.o(.rrx_text), (6 bytes).
+    Removing hc32f460_ll_interrupts_share.o(i.INTC_ShareIrqCmd), (124 bytes).
+    Removing hc32_ll_usart.o(.rev16_text), (4 bytes).
+    Removing hc32_ll_usart.o(.revsh_text), (4 bytes).
+    Removing hc32_ll_usart.o(.rrx_text), (6 bytes).
+    Removing hc32_ll_usart.o(i.USART_ClearStatus), (156 bytes).
+    Removing hc32_ll_usart.o(i.USART_ClockSync_Init), (304 bytes).
+    Removing hc32_ll_usart.o(i.USART_ClockSync_Receive), (236 bytes).
+    Removing hc32_ll_usart.o(i.USART_ClockSync_StructInit), (34 bytes).
+    Removing hc32_ll_usart.o(i.USART_ClockSync_Trans), (200 bytes).
+    Removing hc32_ll_usart.o(i.USART_ClockSync_TransReceive), (220 bytes).
+    Removing hc32_ll_usart.o(i.USART_FilterCmd), (136 bytes).
+    Removing hc32_ll_usart.o(i.USART_GetClockDiv), (96 bytes).
+    Removing hc32_ll_usart.o(i.USART_GetClockSrc), (96 bytes).
+    Removing hc32_ll_usart.o(i.USART_GetStatus), (136 bytes).
+    Removing hc32_ll_usart.o(i.USART_MultiProcessor_Init), (456 bytes).
+    Removing hc32_ll_usart.o(i.USART_MultiProcessor_StructInit), (44 bytes).
+    Removing hc32_ll_usart.o(i.USART_ReadData), (92 bytes).
+    Removing hc32_ll_usart.o(i.USART_SetClockDiv), (132 bytes).
+    Removing hc32_ll_usart.o(i.USART_SetClockSrc), (132 bytes).
+    Removing hc32_ll_usart.o(i.USART_SetDataWidth), (132 bytes).
+    Removing hc32_ll_usart.o(i.USART_SetFirstBit), (132 bytes).
+    Removing hc32_ll_usart.o(i.USART_SetHWFlowControl), (144 bytes).
+    Removing hc32_ll_usart.o(i.USART_SetOverSampleBit), (132 bytes).
+    Removing hc32_ll_usart.o(i.USART_SetParity), (136 bytes).
+    Removing hc32_ll_usart.o(i.USART_SetStartBitPolarity), (128 bytes).
+    Removing hc32_ll_usart.o(i.USART_SetStopBit), (132 bytes).
+    Removing hc32_ll_usart.o(i.USART_SetTransType), (132 bytes).
+    Removing hc32_ll_usart.o(i.USART_SilenceCmd), (136 bytes).
+    Removing hc32_ll_usart.o(i.USART_SmartCard_Init), (280 bytes).
+    Removing hc32_ll_usart.o(i.USART_SmartCard_SetEtuClock), (148 bytes).
+    Removing hc32_ll_usart.o(i.USART_SmartCard_StructInit), (30 bytes).
+    Removing hc32_ll_usart.o(i.USART_UART_Receive), (184 bytes).
+    Removing hc32_ll_usart.o(i.USART_UART_Trans), (204 bytes).
+    Removing hc32_ll_usart.o(i.USART_WaitStatus), (180 bytes).
+    Removing hc32_ll_usart.o(i.USART_WriteData), (120 bytes).
+    Removing hc32_ll_usart.o(i.USART_WriteID), (124 bytes).
+    Removing hc32_ll_spi.o(.rev16_text), (4 bytes).
+    Removing hc32_ll_spi.o(.revsh_text), (4 bytes).
+    Removing hc32_ll_spi.o(.rrx_text), (6 bytes).
+    Removing hc32_ll_spi.o(i.SPI_ClearStatus), (124 bytes).
+    Removing hc32_ll_spi.o(i.SPI_DeInit), (108 bytes).
+    Removing hc32_ll_spi.o(i.SPI_GetStatus), (132 bytes).
+    Removing hc32_ll_spi.o(i.SPI_IntCmd), (164 bytes).
+    Removing hc32_ll_spi.o(i.SPI_ReadBufConfig), (128 bytes).
+    Removing hc32_ll_spi.o(i.SPI_ReadData), (92 bytes).
+    Removing hc32_ll_spi.o(i.SPI_Receive), (42 bytes).
+    Removing hc32_ll_spi.o(i.SPI_Trans), (70 bytes).
+    Removing hc32_ll_spi.o(i.SPI_TransReceive), (50 bytes).
+    Removing hc32_ll_spi.o(i.SPI_Tx), (118 bytes).
+    Removing hc32_ll_spi.o(i.SPI_TxRx), (182 bytes).
+    Removing hc32_ll_spi.o(i.SPI_WaitStatus), (30 bytes).
+    Removing hc32_ll_spi.o(i.SPI_WriteData), (96 bytes).
+
+291 unused section(s) (total 40447 bytes) removed from the image.
