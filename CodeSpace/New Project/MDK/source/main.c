@@ -111,11 +111,20 @@ static void App_PortCfg(void)
     stcGpioInit.u16PinAttr = PIN_ATTR_DIGITAL;
     (void)GPIO_Init(GPIO_PORT_A, GPIO_PIN_07, &stcGpioInit);
 
-    GPIO_SetFunc(GPIO_PORT_A,GPIO_PIN_04,GPIO_FUNC_42);//SPI1-SS0
-    
-    GPIO_SetFunc(GPIO_PORT_A,GPIO_PIN_05,GPIO_FUNC_43);//SPI1-SCK
-    
+    GPIO_SetFunc(GPIO_PORT_A,GPIO_PIN_04,GPIO_FUNC_42);//SPI1-SS0    
+    GPIO_SetFunc(GPIO_PORT_A,GPIO_PIN_05,GPIO_FUNC_43);//SPI1-SCK   
     GPIO_SetFunc(GPIO_PORT_A,GPIO_PIN_06,GPIO_FUNC_40);//SPI1-MOSI
+		(void)GPIO_StructInit(&stcGpioInit);
+    stcGpioInit.u16PinDir = PIN_DIR_OUT;
+    stcGpioInit.u16PinAttr = PIN_ATTR_DIGITAL;
+		stcGpioInit.u16PinOutputType = PIN_ATTR_DIGITAL;
+		stcGpioInit.u16PinDrv = PIN_ATTR_DIGITAL;
+		stcGpioInit.u16Latch = PIN_ATTR_DIGITAL;
+		stcGpioInit.u16PullUp = PIN_ATTR_DIGITAL;
+		stcGpioInit.u16Invert = PIN_ATTR_DIGITAL;
+		stcGpioInit.u16ExtInt = PIN_ATTR_DIGITAL;
+		stcGpioInit.u16PinAttr = PIN_ATTR_DIGITAL;
+		GPIO_Init();
     
 }
 

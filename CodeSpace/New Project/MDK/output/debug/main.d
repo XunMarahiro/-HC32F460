@@ -27,3 +27,4 @@
 .\output\debug\main.o: .\driver\inc\hc32_ll_sram.h
 .\output\debug\main.o: .\driver\inc\hc32_ll_usart.h
 .\output\debug\main.o: .\driver\inc\hc32_ll_utility.h
+.\output\debug\main.o: .\Lib\ST7735S.H

@@ -972,10 +972,6 @@ Removing Unused input sections from the image.
     Removing main.o(.revsh_text), (4 bytes).
     Removing main.o(.rrx_text), (6 bytes).
     Removing main.o(.data), (2 bytes).
-    Removing st7735s.o(.rev16_text), (4 bytes).
-    Removing st7735s.o(.revsh_text), (4 bytes).
-    Removing st7735s.o(.rrx_text), (6 bytes).
-    Removing st7735s.o(i.sent_8bit), (24 bytes).
     Removing hc32_ll.o(.rev16_text), (4 bytes).
     Removing hc32_ll.o(.revsh_text), (4 bytes).
     Removing hc32_ll.o(.rrx_text), (6 bytes).
@@ -1255,5 +1251,9 @@ Removing Unused input sections from the image.
     Removing hc32_ll_spi.o(i.SPI_TxRx), (182 bytes).
     Removing hc32_ll_spi.o(i.SPI_WaitStatus), (30 bytes).
     Removing hc32_ll_spi.o(i.SPI_WriteData), (96 bytes).
+    Removing st7735s_1.o(.rev16_text), (4 bytes).
+    Removing st7735s_1.o(.revsh_text), (4 bytes).
+    Removing st7735s_1.o(.rrx_text), (6 bytes).
+    Removing st7735s_1.o(i.sent_8bit), (20 bytes).
 
-291 unused section(s) (total 40447 bytes) removed from the image.
+291 unused section(s) (total 40443 bytes) removed from the image.
